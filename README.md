@@ -1,0 +1,2 @@
+# gninaworkflow
+GNINA workflow development
