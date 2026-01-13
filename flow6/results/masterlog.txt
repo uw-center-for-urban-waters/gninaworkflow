@@ -1,0 +1,31 @@
+Report produced 2026-01-13 11:38:46 experiment id: 1768333126
+
+Place experiment description here.
+
+File preparation descriptions:
+name            functionname  description                                                                                                                                                                                                                                                                                                                 
+rdkit_save_H    TBD           Python 'Bio.PDB' package used to remove the 'A' chain from the protein file. Python 'Bio.PDB' package used to extract the ligand via code name. Python 'rdkit' package used to convert the ligand file from PDB file to SDF file format.                                                                                    
+obabel --gen3d  TBD           OpenBabel executable used to convert SMILES chain into 3D .sdf file via '--gen3d' flag.                                                                                                                                                                                                                                     
+PDBfixfunc      TBD           Python 'Bio.PDB' package used to remove the 'A' chain from the protein file. PDBFixer package used to fix the protein with following options: findMissingResidues(), findNonstandardResidues(), replaceNonstandardResidues(), fixer.removeHeterogens(False), findMissingAtoms(), addMissingAtoms(), addMissingHydrogens(7.0)
+
+Proteins:
+id            name                prep      
+PDB-REDO6o4w  6o4w from RDBSREDO  PDBfixfunc
+RCBS6o4w      6o4w from RCBS      PDBfixfunc
+
+Ligands:
+id                name                                                   prep          
+REDOcomplexedE20  E20 extracted from protein 6o4w_final_redo_chainB.pdb  rdkit_save_H  
+RCBScomplexedE20  E20 extracted from protein 6O4w_rcbs_chainB_E20.pdb    rdkit_save_H  
+smilesE20         E20 created from SMILES                                obabel --gen3d
+
+Gnina options:
+opt                                                                              
+ex16nm8seed0CNN--no_gpu
+
+Results:
+proteinid + ligandid @ ligandid_searchspace         CNN Score  CNN_VS     RMSD    
+Bucchari (PDB-REDO)                                 0.92       7.29       1.71    
+PDB-REDO6o4w + REDOcomplexedE20 @ REDOcomplexedE20  0.9666     7.7096016  0.497547
+PDB-REDO6o4w + smilesE20 @ REDOcomplexedE20         0.9311     6.9590414  1.01777 
+RCBS6o4w + RCBScomplexedE20 @ RCBScomplexedE20      0.9594     7.5878946  0.580085
