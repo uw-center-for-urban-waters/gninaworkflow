@@ -1,1 +1,82 @@
+Report produced 2026-01-28 17:06:08 experiment id: 1768333126
 
+Run Buccheri et al. (2025) protein-ligand pairs to validate workflow using both redocked ligands and ideal structures.
+
+File preparation descriptions:
+name            functionname  description
+PDBfixfunc      TBD           PDBFixer package used to isolate chains of interest and fix the protein with following options: findMissingResidues(), findNonstandardResidues(), replaceNonstandardResidues(), fixer.removeHeterogens(keepWater=False), findMissingAtoms(), addMissingAtoms(), addMissingHydrogens(7.0)
+
+Proteins:
+id	name	    			source          prep
+6O4W	Acetylcholinesterase		PDB-Redo	PDBfixfunc
+1KE9	Cyclin-dependent kinase 2	RCSB PDB	PDBfixfunc
+2XYN	Tyrosine-protein kinase ABL2	RCSB PDB	PDBfixfunc
+3emg	SYK kinase			PDB-Redo	PDBfixfunc
+4djw	Beta-secretase 1		PDB-Redo	PDBfixfunc
+4ht2	Carbonic anhydrase II		PDB-Redo	PDBfixfunc
+4o09	HSP90 alpha			PDB-Redo	PDBfixfunc
+5edu	HDAC6				PDB-Redo	PDBfixfunc
+5olh	Adenosine A2a receptor		PDB-Redo	PDBfixfunc
+7BVQ	Dopamine D3 receptor		RCSB PDB	PDBfixfunc
+
+
+
+Ligand
+id          	source            				prep				name        
+E20 (redock)	extracted from 6o4w_final_redo_chainB.pdb					1-BENZYL-4-[(5,6-DIMETHOXY-1-INDANON-2-YL)METHYL]PIPERIDINE
+E20 (ideal)	PubChem										1-BENZYL-4-[(5,6-DIMETHOXY-1-INDANON-2-YL)METHYL]PIPERIDINE
+LS5 (redock)	extracted from 1KE9_Fixed_ChainA.pdb						3-{[4-([AMINO(IMINO)METHYL]AMINOSULFONYL)ANILINO]METHYLENE}-2-OXO-2,3-DIHYDRO-1H-INDOLE
+LS5 (ideal)	PubChem										3-{[4-([AMINO(IMINO)METHYL]AMINOSULFONYL)ANILINO]METHYLENE}-2-OXO-2,3-DIHYDRO-1H-INDOLE
+VX6 (redock)	extracted from 2XYN_Fixed_ChainC.pdb		extracted from residue 547	CYCLOPROPANECARBOXYLIC ACID {4-[4-(4-METHYL-PIPERAZIN-1-YL)-6-(5-METHYL-2H-PYRAZOL-3-YLAMINO)-PYRIMIDIN-2-YLSULFANYL]-PHENYL}-AMIDE
+VX6 (ideal)	PubChem										CYCLOPROPANECARBOXYLIC ACID {4-[4-(4-METHYL-PIPERAZIN-1-YL)-6-(5-METHYL-2H-PYRAZOL-3-YLAMINO)-PYRIMIDIN-2-YLSULFANYL]-PHENYL}-AMIDE
+685 (redock)	extracted from 3emg_final_Fixed_ChainA.pdb					2-{2-[(3,5-dimethylphenyl)amino]pyrimidin-4-yl}-N-[(1S)-2-hydroxy-1-methylethyl]-4-methyl-1,3-thiazole-5-carboxamide
+685 (ideal)	PubChem										2-{2-[(3,5-dimethylphenyl)amino]pyrimidin-4-yl}-N-[(1S)-2-hydroxy-1-methylethyl]-4-methyl-1,3-thiazole-5-carboxamide
+0KP (redock)	extracted from 4djw_final_Fixed_ChainB.pdb					(2E,5R)-2-imino-3-methyl-5-phenyl-5-[3-(pyridin-3-yl)phenyl]imidazolidin-4-one
+0KP (ideal)	PubChem										(2E,5R)-2-imino-3-methyl-5-phenyl-5-[3-(pyridin-3-yl)phenyl]imidazolidin-4-one
+V50 (redock)	extracted from 4ht2_final_Fixed_ChainA.pdb					4-[(4,6-dimethylpyrimidin-2-yl)thio]-2,3,5,6-tetrafluorobenzenesulfonamide
+V50 (ideal)	PubChem										4-[(4,6-dimethylpyrimidin-2-yl)thio]-2,3,5,6-tetrafluorobenzenesulfonamide
+2R6 (redock)	extracted from 4o09_final_Fixed_ChainA.pdb					8-(2-methylpropyl)-6-(3,6,6-trimethyl-4-oxo-4,5,6,7-tetrahydro-1H-indol-1-yl)-3,4-dihydroisoquinolin-1(2H)-one
+2R6 (ideal)	PubChem										8-(2-methylpropyl)-6-(3,6,6-trimethyl-4-oxo-4,5,6,7-tetrahydro-1H-indol-1-yl)-3,4-dihydroisoquinolin-1(2H)-one
+TSN (redock)	extracted from 5edu_final_Fixed_ChainB.pdb					TRICHOSTATIN A
+TSN (ideal)	PubChem										TRICHOSTATIN A
+9XT (redock)	extracted from 5olh_final_Fixed_ChainA.pdb					3-[(4-azanyl-3-methyl-phenyl)methyl]-7-(furan-2-yl)-[1,2,3]triazolo[4,5-d]pyrimidin-5-amine
+9XT (ideal)	PubChem										3-[(4-azanyl-3-methyl-phenyl)methyl]-7-(furan-2-yl)-[1,2,3]triazolo[4,5-d]pyrimidin-5-amine
+CAU (redock)	extracted from 7BVQ_Fixed_ChainB.pdb + CAU					(2S)-1-(9H-Carbazol-4-yloxy)-3-(isopropylamino)propan-2-ol
+CAU (ideal)	PubChem										(2S)-1-(9H-Carbazol-4-yloxy)-3-(isopropylamino)propan-2-ol
+
+
+Gnina options:
+exhaustiveness 16
+
+Results:
+proteinid + ligandid @ ligandid_searchspace         CNN Pose   	   CNN_VS     RMSD
+Buccheri_6O4W						0.92	   7.29       1.71
+6o4w_Fixed_ChainB.pdb + E20 (redock)			0.9448	   7.178590   1.55341
+6o4w_Fixed_ChainB.pdb + E20 (ideal)			0.9773	   7.448981   0.789663
+Buccheri_1KE9						0.97       6.52       1.80
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                    0.9754     6.609310   1.881880
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                     0.9458     6.145808   1.831050
+Buccheri_2XYN						0.99       8.47       0.79
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                    0.9918     8.456087   0.765976
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                     0.9956     8.555191   0.837374
+Buccheri_3emg						0.99       7.85       0.97
+3emg_final_Fixed_ChainA.pdb + 685 (redock)              0.9831     7.834324   1.042600
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)               0.9861     7.810898   1.033590
+Buccheri_4djw 						0.98       6.83       0.44
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)              0.9826     6.688558   0.932313
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)               0.9036     5.936652   1.879620
+Buccheri_4ht2						0.90       7.73       1.37
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)              0.3995     2.206838   inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)               0.9219     7.107849   inf
+Buccheri_4o09						0.96       7.75       1.05
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)              0.9862     7.674608   0.967259
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)               0.9675     7.325910   0.730554
+Buccheri_5edu						0.97       6.88       1.80
+5edu_final_Fixed_ChainB.pdb + TSN (redock)              0.9273     6.405788   2.947310
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)               0.9475     6.509325   5.164700
+Buccheri_5olh						0.96       7.60       0.29
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)              0.9680     7.258064   1.499730
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)               0.9592     7.155632   1.472360
+Buccheri_7BVQ						0.98       7.56       1.69       
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                    0.9789     7.016755   0.722722
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                     0.9804     6.784368   0.766060
