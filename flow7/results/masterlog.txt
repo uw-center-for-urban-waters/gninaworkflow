@@ -1,0 +1,31 @@
+Report produced 2026-01-29 11:47:45 experiment id: 1769716065
+
+Workflow 7 is a refactor of Workflow 6. It includes the addition of all protein and ligand details in dictionary objects.
+
+File preparation descriptions:
+name            functionname    description                                                                                                                                                                                                                                                                                                                   
+obabel --gen3d  TBD             OpenBabel executable used to convert SMILES chain into 3D .sdf file via '--gen3d' flag.                                                                                                                                                                                                                                       
+rdkit_save_H    TBD             Python 'Bio.PDB' package used to remove unnecessary chain(s) from the protein file. Python 'Bio.PDB' package used to extract the ligand via code name. Python 'rdkit' package used to convert the ligand file from PDB file to SDF file format.                                                                               
+PDBfixfunc      PDBfixfunc74()  Python 'Bio.PDB' package Chainstripper() function used to remove extra chains. PDBFixer package used to fix the protein with following options: findMissingResidues(), findNonstandardResidues(), replaceNonstandardResidues(), fixer.removeHeterogens(False), findMissingAtoms(), addMissingAtoms(), addMissingHydrogens(7.4)
+
+Proteins:
+id        name                prep        
+REDO6o4w  6o4w from RDBSREDO  PDBfixfunc74
+RCBS6O4W  6O4W from RCBS      PDBfixfunc74
+
+Ligands:
+id                    name                                            prep          
+smilesE20             E20 created from SMILES                         obabel --gen3d
+6o4wREDOcomplexedE20  E20 extracted from protein 6o4w_redo_B_E20.sdf  rdkit_save_H  
+6O4WRCBScomplexedE20  E20 extracted from protein 6O4W_rcbs_B_E20.sdf  rdkit_save_H  
+
+Gnina options:
+opt                                                                              
+ex16nm8seed0CNN--no_gpu
+
+Results:
+proteinid + ligandid @ ligandid_searchspace             CNN Score  CNN_VS     RMSD    
+Bucchari (PDB-REDO)                                     0.92       7.29       1.71    
+REDO6o4w + 6o4wREDOcomplexedE20 @ 6o4wREDOcomplexedE20  0.9666     7.7096016  0.497547
+REDO6o4w + smilesE20 @ 6o4wREDOcomplexedE20             0.9213     6.8572359  1.08851 
+RCBS6O4W + 6O4WRCBScomplexedE20 @ 6O4WRCBScomplexedE20  0.9594     7.5878946  0.580085
