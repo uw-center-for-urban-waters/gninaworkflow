@@ -1,0 +1,86 @@
+Report produced 2026-02-03 10:02:07 experiment id: 1770141727
+
+Workflow 8 is a development of Workflow 7 to accomodate a more realistic list of chemicals. It includes the addition of all protein and ligand details in dictionary objects.
+
+File preparation descriptions:
+name          functionname    description                                                                                                                                                                                                                                                                                                                   
+PDBfixfunc  PDBfixfunc74()  Python 'Bio.PDB' package Chainstripper() function used to remove extra chains. PDBFixer package used to fix the protein with following options: findMissingResidues(), findNonstandardResidues(), replaceNonstandardResidues(), fixer.removeHeterogens(False), findMissingAtoms(), addMissingAtoms(), addMissingHydrogens(7.4)
+
+Proteins:
+id         name                          prep          localfilename_fixed   
+6o4w_Redo  Acetylcholinesterase          PDBfixfunc74  6o4w_final_B_fixed.pdb
+1KE9_RCBS  Cyclin-dependent kinase 2     PDBfixfunc74  1KE9_A_fixed.pdb      
+2XYN_RCBS  Tyrosine-protein kinase ABL2  PDBfixfunc74  2XYN_C_fixed.pdb      
+3emg_Redo  SYK kinase                    PDBfixfunc74  3emg_final_A_fixed.pdb
+4djw_Redo  Beta-secretase 1              PDBfixfunc74  4djw_final_B_fixed.pdb
+4ht2_Redo  Carbonic anhydrase II         PDBfixfunc74  4ht2_final_A_fixed.pdb
+4o09_Redo  HSP90 alpha                   PDBfixfunc74  4o09_final_A_fixed.pdb
+5edu_Redo  HDAC6                         PDBfixfunc74  5edu_final_B_fixed.pdb
+7BVQ_RCBS  Dopamine D3 receptor          PDBfixfunc74  7BVQ_B_fixed.pdb      
+
+Ligands:
+id          name                                  prep                       localfilename              
+E20_ideal                                         Wget 3d .sdf from PubChem  E20_ideal_PubChem.sdf      
+LS5_ideal                                         Wget 3d .sdf from PubChem  LS5_ideal_PubChem.sdf      
+VX6_ideal                                         Wget 3d .sdf from PubChem  VX6_ideal_PubChem.sdf      
+685_ideal                                         Wget 3d .sdf from PubChem  685_ideal_PubChem.sdf      
+0KP_ideal                                         Wget 3d .sdf from PubChem  0KP_ideal_PubChem.sdf      
+V50_ideal                                         Wget 3d .sdf from PubChem  V50_ideal_PubChem.sdf      
+2R6_ideal                                         Wget 3d .sdf from PubChem  2R6_ideal_PubChem.sdf      
+TSN_ideal                                         Wget 3d .sdf from PubChem  TSN_ideal_PubChem.sdf      
+9XT_ideal                                         Wget 3d .sdf from PubChem  9XT_ideal_PubChem.sdf      
+CAU_ideal                                         Wget 3d .sdf from PubChem  CAU_ideal_PubChem.sdf      
+E20_redock  E20 extracted from protein 6o4w_Redo  rdkit_save_H               E20_redock_6o4w_final_B.sdf
+LS5_redock  LS5 extracted from protein 1KE9_RCBS  rdkit_save_H               LS5_redock_1KE9_A.sdf      
+VX6_redock  VX6 extracted from protein 2XYN_RCBS  rdkit_save_H               VX6_redock_2XYN_C.sdf      
+685_redock  685 extracted from protein 3emg_Redo  rdkit_save_H               685_redock_3emg_final_A.sdf
+0KP_redock  0KP extracted from protein 4djw_Redo  rdkit_save_H               0KP_redock_4djw_final_B.sdf
+V50_redock  V50 extracted from protein 4ht2_Redo  rdkit_save_H               V50_redock_4ht2_final_A.sdf
+2R6_redock  2R6 extracted from protein 4o09_Redo  rdkit_save_H               2R6_redock_4o09_final_A.sdf
+TSN_redock  TSN extracted from protein 5edu_Redo  rdkit_save_H               TSN_redock_5edu_final_B.sdf
+CAU_redock  CAU extracted from protein 7BVQ_RCBS  rdkit_save_H               CAU_redock_7BVQ_B.sdf      
+
+Gnina options:
+opt                                                                              
+ex16nm8seed0CNN--no_gpu
+
+Results:
+proteinid + ligandid @ ligandid_searchspace  CNN Score  CNN_VS              RMSD
+    
+Bucchari (PDB-REDO)                          0.92       7.29                1.71    
+6o4w_Redo + E20_redock @ E20_redock          0.9666     7.7096016           0.497547
+6o4w_Redo + E20_ideal @ E20_redock           0.9666     7.4321874           0.650776
+
+Buccheri_1KE9                                0.97       6.52                1.80
+1KE9_RCBS + LS5_redock @ LS5_redock          0.6813     4.5190629           1.95333 
+1KE9_RCBS + LS5_ideal @ LS5_redock           0.9336     6.0375912           1.91844 
+    
+Buccheri_2XYN                                0.99       8.47                0.79    
+2XYN_RCBS + VX6_redock @ VX6_redock          0.6256     4.1833872           inf     
+2XYN_RCBS + VX6_ideal @ VX6_redock           0.994      8.516592            inf  
+   
+Buccheri_3emg                                0.99       7.85                0.97    
+3emg_Redo + 685_redock @ 685_redock          0.7349     5.4728003           3.24769 
+3emg_Redo + 685_ideal @ 685_redock           0.9853     7.8459439           1.44371 
+
+Buccheri_4djw 								 0.98       6.83       			0.44    
+4djw_Redo + 0KP_redock @ 0KP_redock          0.9727     7.1318364           0.930824
+4djw_Redo + 0KP_ideal @ 0KP_redock           0.9715     6.6440885000000005  0.951228
+
+Buccheri_4ht2                                0.99       7.85                0.97 
+   
+Buccheri_4o09                                0.96       7.75                1.05    
+4o09_Redo + 2R6_redock @ 2R6_redock          0.9897     8.0541786           0.948038
+4o09_Redo + 2R6_ideal @ 2R6_redock           0.9398     7.1781923999999995  3.5442 
+ 
+Buccheri_5edu                                0.97       6.88                1.80    
+5edu_Redo + TSN_redock @ TSN_redock          0.9496     7.0906632           5.19649 
+5edu_Redo + TSN_ideal @ TSN_redock           0.9373     6.6754506000000005  2.7662  
+
+Buccheri_5olh                                0.96       7.60                0.29    
+5olh_Redo + 9XT_redock @ 9XT_redock          0.8529     5.7280764           0.257129
+5olh_Redo + 9XT_ideal @ 9XT_redock           0.9493     7.171012200000001   0.336782
+
+Buccheri_7BVQ                                0.98       7.56                1.69    
+7BVQ_RCBS + CAU_redock @ CAU_redock          0.9534     6.732910800000001   0.738454
+7BVQ_RCBS + CAU_ideal @ CAU_redock           0.982      6.853378            0.740849
