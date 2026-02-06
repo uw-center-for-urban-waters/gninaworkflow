@@ -1,0 +1,3 @@
+
+# Ignore Jupyter notebook checkpoints
+mfaber_workflow/**/.ipynb_checkpoints/
