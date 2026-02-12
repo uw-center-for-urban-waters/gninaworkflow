@@ -1,0 +1,8 @@
+RMSD HETATM    1  F13BV50 A 302      -2.688  17.418  -4.851  0.50  8.55          F: inf
+RMSD HETATM    1  F13BV50 A 302      -2.688  17.418  -4.851  0.50  8.55          F: inf
+RMSD HETATM    1  F13BV50 A 302      -2.688  17.418  -4.851  0.50  8.55          F: inf
+RMSD HETATM    1  F13BV50 A 302      -2.688  17.418  -4.851  0.50  8.55          F: inf
+RMSD HETATM    1  F13BV50 A 302      -2.688  17.418  -4.851  0.50  8.55          F: inf
+RMSD HETATM    1  F13BV50 A 302      -2.688  17.418  -4.851  0.50  8.55          F: inf
+RMSD HETATM    1  F13BV50 A 302      -2.688  17.418  -4.851  0.50  8.55          F: inf
+RMSD HETATM    1  F13BV50 A 302      -2.688  17.418  -4.851  0.50  8.55          F: inf
