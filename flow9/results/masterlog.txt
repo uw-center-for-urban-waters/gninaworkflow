@@ -1,0 +1,52 @@
+Report produced 2026-02-12 10:53:59 experiment id: 1770922439
+
+Workflow 9 is a continuation of Workflow 8 that contentrates on different ligand prep options.
+
+File preparation descriptions:
+name          functionname    description                                                                                                                                                                                                                                                                                                                   
+rdkit_save_H  TBD             Python 'Bio.PDB' package used to remove unnecessary chain(s) from the protein file. Python 'Bio.PDB' package used to extract the ligand via code name. Python 'rdkit' package used to convert the ligand file from PDB file to SDF file format.                                                                               
+obabel        TBD             Python 'Bio.PDB' package used to remove unnecessary chain(s) from the protein file. Obabel Python module used to extract ligand from .pdb using three digit code.                                                                                                                                                             
+PDBfixfunc    PDBfixfunc74()  Python 'Bio.PDB' package Chainstripper() function used to remove extra chains. PDBFixer package used to fix the protein with following options: findMissingResidues(), findNonstandardResidues(), replaceNonstandardResidues(), fixer.removeHeterogens(False), findMissingAtoms(), addMissingAtoms(), addMissingHydrogens(7.4)
+
+Proteins:
+id         name                                       prep          localfilename_fixed        
+4o09_Redo  HSP90 alpha                                PDBfixfunc74  4o09_final_A_fixed.pdb     
+5edu_Redo  HDAC6                                      PDBfixfunc74  5edu_final_B_fixed.pdb     
+4o09_maya  4o09_final processed and supplied by Maya                4o09_final_Fixed_ChainA.pdb
+5edu_maya  5edu_final processed and supplied by Maya                5edu_final_Fixed_ChainB.pdb
+
+Ligands:
+id                 name                                  prep                       localfilename                     
+2R6_ideal                                                Wget 3d .sdf from PubChem  2R6_ideal_PubChem.sdf             
+TSN_ideal                                                Wget 3d .sdf from PubChem  TSN_ideal_PubChem.sdf             
+2R6_redock         2R6 extracted from protein 4o09_Redo  rdkit_save_H               2R6_redock_4o09_final_A.sdf       
+TSN_redock         TSN extracted from protein 5edu_Redo  rdkit_save_H               TSN_redock_5edu_final_B.sdf       
+2R6_redock_obabel  2R6 extracted from protein 4o09_Redo  obabel                     2R6_redock_4o09_final_A_obabel.sdf
+TSN_redock_obabel  TSN extracted from protein 5edu_Redo  obabel                     TSN_redock_5edu_final_B_obabel.sdf
+2R6_maya           2R6 extracted from protein by Maya    download                   4o09_final_ligand_2R6_A.pdb       
+TSN_maya           TSN extracted from protein by Maya    download                   5edu_final_ligand_TSN_B.pdb       
+2R6_Ideal          2R6 ideal supplied by Maya            download                   2R6_Ideal.sdf                     
+TSN_Ideal          TSN ideal supplied by Maya            download                   TSN_Ideal.sdf                     
+
+Gnina options:
+opt                                                                              
+ex16nm8seed0CNN--no_gpu
+
+Results:
+proteinid + ligandid @ ligandid_searchspace  CNN Score  CNN_VS  RMSD  
+Buccheri_4o09                                0.9600     7.7500  1.0500
+4o09_Redo + 2R6_redock @ 2R6_redock          0.9897     8.0542  0.9480
+4o09_Redo + 2R6_redock_obabel @ 2R6_redock   0.9890     8.0445  1.1302
+4o09_Redo + 2R6_ideal @ 2R6_redock           0.9398     7.1782  3.5442
+4o09_Redo + 2R6_maya @ 2R6_redock            0.9929     7.8419  0.9149
+Buccheri_4o09                                0.9600     7.7500  1.0500
+4o09_maya + 2R6_maya @ 2R6_maya              0.9929     7.8419  0.9149
+4o09_maya + 2R6_Ideal @ 2R6_maya             0.9398     7.1782  3.5442
+Buccheri_5edu                                0.9700     6.8800  1.8000
+5edu_Redo + TSN_redock @ TSN_redock          0.9496     7.0907  5.1965
+5edu_Redo + TSN_redock_obabel @ TSN_redock   0.8874     6.2287  1.6861
+5edu_Redo + TSN_ideal @ TSN_redock           0.9373     6.6755  2.7662
+5edu_Redo + TSN_maya @ TSN_redock            0.9557     6.8390  2.1771
+Buccheri_4o09                                0.9600     7.7500  1.0500
+5edu_maya + TSN_maya @ TSN_maya              0.9557     6.8390  2.1771
+5edu_maya + TSN_Ideal @ TSN_maya             0.9373     6.6755  2.7662

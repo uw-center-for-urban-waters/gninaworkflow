@@ -1,0 +1,8 @@
+RMSD chemfiles/ligand/5edu_final_ligand_TSN_B.pdb:444732 5.13827
+RMSD chemfiles/ligand/5edu_final_ligand_TSN_B.pdb:444732 2.7662
+RMSD chemfiles/ligand/5edu_final_ligand_TSN_B.pdb:444732 1.75827
+RMSD chemfiles/ligand/5edu_final_ligand_TSN_B.pdb:444732 2.10626
+RMSD chemfiles/ligand/5edu_final_ligand_TSN_B.pdb:444732 2.50971
+RMSD chemfiles/ligand/5edu_final_ligand_TSN_B.pdb:444732 2.51635
+RMSD chemfiles/ligand/5edu_final_ligand_TSN_B.pdb:444732 2.51765
+RMSD chemfiles/ligand/5edu_final_ligand_TSN_B.pdb:444732 1.98376
