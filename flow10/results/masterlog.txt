@@ -1,0 +1,74 @@
+Report produced 2026-02-19 11:44:23 experiment id: 1771530263
+
+Workflow 10 is Andy's 'Top 9' experiment. We will report results for top 9 poses.Protein (ligand): 6O4W (E20), 1KE9 (LS5), 2XYN (VX6), 5edu (TSN)
+
+File preparation descriptions:
+name               functionname    description                                                                                                                                                                                                                                                                                                                                         
+rdkit_save_H  TBD             Python 'Bio.PDB' package used to remove unnecessary chain(s) from the protein file. Python 'Bio.PDB' package used to extract the ligand via code name. Python 'rdkit' package used to convert the ligand file from PDB file to SDF file format.                                                                                                     
+PDBfixfunc    PDBfixfunc74()  Python 'Bio.PDB' package Chainstripper() function used to remove extra chains. PDBFixer package used to fix the protein with following options: fixer.removeChains(), findMissingResidues(), findNonstandardResidues(), replaceNonstandardResidues(), fixer.removeHeterogens(False), findMissingAtoms(), addMissingAtoms(), addMissingHydrogens(7.4)
+
+Proteins:
+id         name                          prep          localfilename_fixed   
+6o4w_Redo  Acetylcholinesterase          PDBfixfunc74  6o4w_final_B_fixed.pdb
+1KE9_RCBS  Cyclin-dependent kinase 2     PDBfixfunc74  1KE9_A_fixed.pdb      
+2XYN_RCBS  Tyrosine-protein kinase ABL2  PDBfixfunc74  2XYN_C_fixed.pdb      
+5edu_Redo  HDAC6                         PDBfixfunc74  5edu_final_B_fixed.pdb
+
+Ligands:
+id          name                                  prep                       localfilename              
+E20_ideal                                         Wget 3d .sdf from PubChem  E20_ideal_PubChem.sdf      
+E20_redock  E20 extracted from protein 6o4w_Redo  rdkit_save_H               E20_redock_6o4w_final_B.sdf
+LS5_ideal                                         Wget 3d .sdf from PubChem  LS5_ideal_PubChem.sdf      
+VX6_ideal                                         Wget 3d .sdf from PubChem  VX6_ideal_PubChem.sdf      
+TSN_ideal                                         Wget 3d .sdf from PubChem  TSN_ideal_PubChem.sdf      
+LS5_redock  LS5 extracted from protein 1KE9_RCBS  rdkit_save_H               LS5_redock_1KE9_A.sdf      
+VX6_redock  VX6 extracted from protein 2XYN_RCBS  rdkit_save_H               VX6_redock_2XYN_C.sdf      
+TSN_redock  TSN extracted from protein 5edu_Redo  rdkit_save_H               TSN_redock_5edu_final_B.sdf
+
+Gnina options:
+id         opt                                                                              
+gninaopt1  --exhaustiveness=16 --num_modes=8 --seed 0 --pose_sort_order CNNaffinity --no_gpu
+gninaopt2  --exhaustiveness=16 --num_modes=9 --seed 0 --pose_sort_order CNNscore --no_gpu   
+
+Results:
+proteinid + ligandid @ ligandid     CNN Score  CNN_VS  RMSD   
+Buccheri_604W                       0.9200     7.2900  1.7100 
+6o4w_Redo + E20_ideal @ E20_redock  0.9666     7.4318  0.6508 
+6o4w_Redo + E20_ideal @ E20_redock  0.9582     7.1926  1.3077 
+6o4w_Redo + E20_ideal @ E20_redock  0.9499     7.0553  1.6306 
+6o4w_Redo + E20_ideal @ E20_redock  0.9063     6.5790  1.4005 
+6o4w_Redo + E20_ideal @ E20_redock  0.8245     5.9173  1.9131 
+6o4w_Redo + E20_ideal @ E20_redock  0.8227     5.7899  2.2850 
+6o4w_Redo + E20_ideal @ E20_redock  0.8164     5.8149  2.7463 
+6o4w_Redo + E20_ideal @ E20_redock  0.7824     5.3820  2.3487 
+6o4w_Redo + E20_ideal @ E20_redock  0.7534     5.2596  10.1390
+Buccheri_1KE9                       0.9700     6.5200  1.8000 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.9341     6.0889  1.8441 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.8783     5.4769  1.1896 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.8411     5.2403  1.0805 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.7847     4.7501  2.1922 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.5376     3.1911  2.0141 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.4589     2.1589  9.4832 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.4028     2.2306  3.1042 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.3990     2.2224  1.9774 
+1KE9_RCBS + LS5_ideal @ LS5_redock  0.2717     1.4583  3.4831 
+Buccheri_2XYN                       0.9900     8.4700  0.7900 
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.8230     5.9606  inf    
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.2857     1.7174  inf    
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.2852     1.6234  inf    
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.2614     1.5024  inf    
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.2098     1.2161  inf    
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.1767     0.9213  inf    
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.1692     0.9516  inf    
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.1554     0.7735  inf    
+2XYN_RCBS + VX6_ideal @ VX6_redock  0.1423     0.7470  inf    
+Buccheri_5edu                       0.9700     6.8800  1.8000 
+5edu_Redo + TSN_ideal @ TSN_redock  0.9531     6.7342  5.1383 
+5edu_Redo + TSN_ideal @ TSN_redock  0.9373     6.6755  2.7662 
+5edu_Redo + TSN_ideal @ TSN_redock  0.8602     5.9006  1.7583 
+5edu_Redo + TSN_ideal @ TSN_redock  0.8015     5.3012  2.1063 
+5edu_Redo + TSN_ideal @ TSN_redock  0.7923     5.2822  2.5097 
+5edu_Redo + TSN_ideal @ TSN_redock  0.7915     5.3291  2.5164 
+5edu_Redo + TSN_ideal @ TSN_redock  0.7868     5.2267  2.5177 
+5edu_Redo + TSN_ideal @ TSN_redock  0.7447     4.8111  1.9838 
+5edu_Redo + TSN_ideal @ TSN_redock  0.7080     4.4991  2.7504 
