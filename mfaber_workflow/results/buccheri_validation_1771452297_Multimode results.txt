@@ -1,0 +1,232 @@
+Report produced 2026-02-18 14:04:57  |  experiment id: 1771452297
+
+Run Buccheri et al. (2025) protein-ligand pairs with all modes using both redocked ligands and ideal structures.
+Updated to include a pH of 7.4 for prepared proteins. Seed set to 0
+
+File preparation descriptions:
+name            functionname  description
+PDBfixfunc      TBD           PDBFixer package used to isolate chains of interest and fix the protein with following options:
+                               findMissingResidues(), findNonstandardResidues(), replaceNonstandardResidues(),
+                               fixer.removeHeterogens(keepWater=False), findMissingAtoms(), addMissingAtoms(),
+                               addMissingHydrogens(7.4)
+
+Proteins:
+id     name                              source      prep
+6O4W   Acetylcholinesterase              PDB-Redo    PDBfixfunc
+1KE9   Cyclin-dependent kinase 2         RCSB PDB    PDBfixfunc
+2XYN   Tyrosine-protein kinase ABL2      RCSB PDB    PDBfixfunc
+3emg   SYK kinase                        PDB-Redo    PDBfixfunc
+4djw   Beta-secretase 1                  PDB-Redo    PDBfixfunc
+4ht2   Carbonic anhydrase II             PDB-Redo    PDBfixfunc
+4o09   HSP90 alpha                       PDB-Redo    PDBfixfunc
+5edu   HDAC6                             PDB-Redo    PDBfixfunc
+5olh   Adenosine A2a receptor            PDB-Redo    PDBfixfunc
+7BVQ   Dopamine D3 receptor              RCSB PDB    PDBfixfunc
+
+
+Ligands:
+id           source                                   prep                     name
+E20 (redock) extracted from 6o4w_final_redo_chainB.pdb                        1-BENZYL-4-[(5,6-DIMETHOXY-1-INDANON-2-YL)METHYL]PIPERIDINE
+E20 (ideal)  PubChem                                                          1-BENZYL-4-[(5,6-DIMETHOXY-1-INDANON-2-YL)METHYL]PIPERIDINE
+LS5 (redock) extracted from 1KE9_Fixed_ChainA.pdb                             3-{[4-([AMINO(IMINO)METHYL]AMINOSULFONYL)ANILINO]METHYLENE}-2-OXO-2,3-DIHYDRO-1H-INDOLE
+LS5 (ideal)  PubChem                                                          3-{[4-([AMINO(IMINO)METHYL]AMINOSULFONYL)ANILINO]METHYLENE}-2-OXO-2,3-DIHYDRO-1H-INDOLE
+VX6 (redock) extracted from 2XYN_Fixed_ChainC.pdb (residue 547)               CYCLOPROPANECARBOXYLIC ACID {4-[4-(4-METHYL-PIPERAZIN-1-YL)-6-(5-METHYL-2H-PYRAZOL-3-YLAMINO)-PYRIMIDIN-2-YLSULFANYL]-PHENYL}-AMIDE
+VX6 (ideal)  PubChem                                                          CYCLOPROPANECARBOXYLIC ACID {4-[4-(4-METHYL-PIPERAZIN-1-YL)-6-(5-METHYL-2H-PYRAZOL-3-YLAMINO)-PYRIMIDIN-2-YLSULFANYL]-PHENYL}-AMIDE
+TSN (ideal)  PubChem                                                          TRICHOSTATIN A
+
+
+Gnina options:
+exhaustiveness 16
+
+Results:
+proteinid + ligandid @ ligandid_searchspace | mode | CNN Score | CNN_VS | RMSD
+Buccheri_6O4W                                             REF     0.9200     7.290000     1.710000
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  1     0.9705     7.458292     0.507244
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  2     0.9458     7.019728     1.540330
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  3     0.8312     6.008745     1.862410
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  4     0.7832     5.422094     2.289530
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  5     0.7680     5.309952     2.280130
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  6     0.7589     5.121816     2.341930
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  7     0.7364     5.232122     4.274300
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  8     0.6496     4.289958     9.410320
+6O4W_REDO_Fixed_ChainB.pdb + E20 (redock)                  9     0.6378     4.212669    10.428300
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   1     0.9666     7.432187     0.650776
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   2     0.9582     7.192249     1.307750
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   3     0.9499     7.054907     1.630630
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   4     0.9061     6.577380     1.400460
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   5     0.8244     5.916719     1.913060
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   6     0.8226     5.789459     2.285010
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   7     0.8163     5.814505     2.746320
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   8     0.7822     5.380754     2.348720
+6O4W_REDO_Fixed_ChainB.pdb + E20 (ideal)                   9     0.7535     5.260183    10.139000
+Buccheri_1KE9                                             REF     0.9700     6.520000     1.800000
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       1     0.9746     6.597067     1.880300
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       2     0.9725     6.453510     0.915399
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       3     0.9681     6.470780     1.453790
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       4     0.9677     6.265858     1.345770
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       5     0.9579     6.268498     0.837342
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       6     0.9315     6.247571     1.833820
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       7     0.9066     5.942763     1.525550
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       8     0.8128     5.431130     1.233170
+1KE9_Fixed_ChainA.pdb + LS5 (redock)                       9     0.5882     3.693896     2.687760
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        1     0.9385     6.108697     1.848360
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        2     0.8773     5.529622     1.148710
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        3     0.8732     5.439163     1.233200
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        4     0.8555     5.344309     1.063550
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        5     0.7114     4.185878     2.337130
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        6     0.5832     3.442630     1.914650
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        7     0.5203     2.915241     1.812620
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        8     0.4669     2.695881     2.430040
+1KE9_Fixed_ChainA.pdb + LS5 (ideal)                        9     0.4535     2.130089     9.483200
+Buccheri_2XYN                                             REF     0.9900     8.470000     0.790000
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       1     0.9558     8.118565     1.029590
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       2     0.8226     6.600542     2.373710
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       3     0.3337     2.381951     3.655030
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       4     0.2096     1.492771     3.760460
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       5     0.0815     0.398046    10.376400
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       6     0.0793     0.400782    10.068800
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       7     0.0763     0.471381     4.569920
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       8     0.0497     0.291143     5.017060
+2XYN_Fixed_ChainC.pdb + VX6 (redock)                       9     0.0384     0.187968     6.252870
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        1     0.9941     8.589024     0.901028
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        2     0.7486     5.928912     1.903510
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        3     0.5220     3.922830     3.864720
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        4     0.3098     2.158377     3.638940
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        5     0.1656     1.032516     9.977860
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        6     0.1457     0.760117     9.518960
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        7     0.0840     0.436212    10.540100
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        8     0.0569     0.327061     5.336000
+2XYN_Fixed_ChainC.pdb + VX6 (ideal)                        9     0.0557     0.281118     5.966280
+Buccheri_3emg                                             REF     0.9900     7.850000     0.970000
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 1     0.9853     7.818355     1.065830
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 2     0.9843     7.804515     1.463230
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 3     0.9647     7.544919     1.471220
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 4     0.9471     7.280358     2.275730
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 5     0.9255     6.972717     1.532400
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 6     0.8662     6.398619     2.455810
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 7     0.8276     6.093619     2.371920
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 8     0.7879     5.600393     3.415930
+3emg_final_Fixed_ChainA.pdb + 685 (redock)                 9     0.6657     4.703836     3.304960
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  1     0.9853     7.845944     1.443710
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  2     0.9851     7.834500     1.432920
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  3     0.9815     7.748943     1.139210
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  4     0.9407     6.981875     2.595060
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  5     0.8745     6.514151     2.544440
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  6     0.8665     6.410367     2.134310
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  7     0.8498     6.134706     2.900970
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  8     0.6828     4.841052     3.416050
+3emg_final_Fixed_ChainA.pdb + 685 (ideal)                  9     0.6444     4.543020     3.464600
+Buccheri_4djw                                             REF     0.9800     6.830000     0.440000
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 1     0.9715     6.613001     0.945091
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 2     0.9275     5.970318     2.407260
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 3     0.8837     5.922557     2.783610
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 4     0.6943     4.254670     7.706650
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 5     0.6762     4.005809     6.863300
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 6     0.6001     3.578396     2.054400
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 7     0.5967     3.326006     7.267390
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 8     0.5905     3.374707     5.099290
+4djw_final_Fixed_ChainB.pdb + 0KP (redock)                 9     0.4540     2.551480     8.040390
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  1     0.8936     5.841463     1.846890
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  2     0.8590     5.433175     3.248520
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  3     0.8208     5.142312     3.729460
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  4     0.8024     4.933958     3.051280
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  5     0.7280     4.332328     4.951080
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  6     0.7133     4.310472     8.491780
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  7     0.7064     4.111248     1.881720
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  8     0.6120     3.665880     4.645620
+4djw_final_Fixed_ChainB.pdb + 0KP (ideal)                  9     0.5765     3.436517     2.083070
+Buccheri_4ht2                                             REF     0.9000     7.730000     1.370000
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 1     0.3533     1.979893          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 2     0.3206     1.774200          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 3     0.3164     1.662366          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 4     0.2885     1.689456          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 5     0.2714     1.405852          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 6     0.2664     1.496102          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 7     0.2316     1.134145          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 8     0.2310     1.148070          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (redock)                 9     0.2299     1.142373          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  1     0.9635     7.864087          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  2     0.9633     7.865344          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  3     0.9612     7.806866          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  4     0.9612     7.803022          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  5     0.9186     7.042906          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  6     0.8457     6.412097          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  7     0.8100     6.283980          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  8     0.7997     6.108109          inf
+4ht2_final_Fixed_ChainA.pdb + V50 (ideal)                  9     0.6086     4.630837          inf
+Buccheri_4o09                                             REF     0.9600     7.750000     1.050000
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 1     0.9929     7.841924     0.914941
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 2     0.9504     7.191677     3.186770
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 3     0.9452     7.206205     1.641290
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 4     0.9341     7.094489     2.917190
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 5     0.9237     6.815982     7.680210
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 6     0.8134     5.833705     7.749620
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 7     0.7992     5.888506     3.657740
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 8     0.7707     5.414168     4.998180
+4o09_final_Fixed_ChainA.pdb + 2R6 (redock)                 9     0.7655     5.529972     7.346120
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  1     0.9667     7.379788     1.361570
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  2     0.9397     7.176489     3.544200
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  3     0.9146     6.889682     2.820150
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  4     0.9056     6.660688     7.630290
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  5     0.8923     6.510221     4.192910
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  6     0.8165     6.149062     7.196290
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  7     0.7989     5.801612     7.754810
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  8     0.7600     5.544960     4.070260
+4o09_final_Fixed_ChainA.pdb + 2R6 (ideal)                  9     0.7568     5.495882     7.356580
+Buccheri_5edu                                             REF     0.9700     6.880000     1.800000
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 1     0.9558     6.838749     2.177080
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 2     0.9210     6.333717     0.945620
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 3     0.8889     6.089854     4.267500
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 4     0.8477     5.655007     5.071130
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 5     0.8377     5.350390     2.357120
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 6     0.7921     5.337170     2.492440
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 7     0.7851     5.097654     5.038430
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 8     0.7737     5.200038     2.517190
+5edu_final_Fixed_ChainB.pdb + TSN (redock)                 9     0.7080     4.417920     2.612490
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  1     0.9532     6.734358     5.138270
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  2     0.9374     6.675225     2.766200
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  3     0.8601     5.899426     1.758270
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  4     0.8015     5.301121     2.106260
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  5     0.7920     5.280264     2.509710
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  6     0.7916     5.329843     2.516350
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  7     0.7866     5.224597     2.517650
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  8     0.7448     4.812153     1.983760
+5edu_final_Fixed_ChainB.pdb + TSN (ideal)                  9     0.7078     4.497361     2.750410
+Buccheri_5olh                                             REF     0.9600     7.600000     0.290000
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 1     0.9633     7.203557     1.527110
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 2     0.9601     7.266997     0.269588
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 3     0.9541     7.148117     1.389540
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 4     0.8864     6.316486     3.249720
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 5     0.8690     6.354997     2.593430
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 6     0.7152     4.861214     3.643360
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 7     0.6651     4.651709     3.180510
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 8     0.5473     3.601781     8.122930
+5olh_final_Fixed_ChainA.pdb + 9XT (redock)                 9     0.5459     3.590930     6.409480
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  1     0.9565     7.127838     1.461770
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  2     0.9493     7.171012     0.336782
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  3     0.9340     6.901326     2.452960
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  4     0.8476     6.172223     2.560210
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  5     0.8107     5.870279     2.833970
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  6     0.6927     4.850285     3.065100
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  7     0.5142     3.504273     3.424390
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  8     0.4917     3.226535     8.022790
+5olh_final_Fixed_ChainA.pdb + 9XT (ideal)                  9     0.4733     3.172530     6.600620
+Buccheri_7BVQ                                             REF     0.9800     7.560000     1.690000
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       1     0.9741     6.960919     0.735057
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       2     0.9044     6.390490     1.667390
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       3     0.9034     6.537906     3.293610
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       4     0.8867     6.064141     3.593770
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       5     0.8138     5.359687     6.315640
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       6     0.7652     5.055676     6.206180
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       7     0.7524     5.105786     3.819230
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       8     0.7024     4.557874     3.974530
+7BVQ_Fixed_ChainB.pdb + CAU (redock)                       9     0.6323     4.135242     3.660490
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        1     0.9753     7.066048     1.069960
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        2     0.7781     5.059984     3.649230
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        3     0.6580     4.021038     6.360780
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        4     0.6488     4.150374     1.853690
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        5     0.6417     3.949664     2.702430
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        6     0.6065     3.665080     2.445240
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        7     0.5725     3.488243     2.504550
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        8     0.5361     3.411740     4.372470
+7BVQ_Fixed_ChainB.pdb + CAU (ideal)                        9     0.5252     3.050362     6.921370
