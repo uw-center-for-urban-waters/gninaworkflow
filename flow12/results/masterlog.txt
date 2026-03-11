@@ -1,0 +1,188 @@
+Report produced 2026-03-11 10:52:23 experiment id: 1773251543
+
+Workflow 12
+
+File preparation descriptions:
+name               functionname    description                                                                                                                                                                                                                                                                                                                                         
+rdkit_save_H  TBD             Python 'Bio.PDB' package used to remove unnecessary chain(s) from the protein file. Python 'Bio.PDB' package used to extract the ligand via code name. Python 'rdkit' package used to convert the ligand file from PDB file to SDF file format.                                                                                                     
+PDBfixfunc    PDBfixfunc74()  Python 'Bio.PDB' package Chainstripper() function used to remove extra chains. PDBFixer package used to fix the protein with following options: fixer.removeChains(), findMissingResidues(), findNonstandardResidues(), replaceNonstandardResidues(), fixer.removeHeterogens(False), findMissingAtoms(), addMissingAtoms(), addMissingHydrogens(7.4)
+
+Proteins:
+id      name                                                                             prep          localfilename_fixed
+1ERE_1  HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEX WITH 17BETA-ESTRADIOL   PDBfixfunc74  1ERE_1_B_fixed.pdb 
+1ERE_2  HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEX WITH 17BETA-ESTRADIOL   PDBfixfunc74  1ERE_2_B_fixed.pdb 
+1ERE_3  HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEX WITH 17BETA-ESTRADIOL   PDBfixfunc74  1ERE_3_B_fixed.pdb 
+1ERE_4  HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEX WITH 17BETA-ESTRADIOL   PDBfixfunc74  1ERE_4_B_fixed.pdb 
+1ERE_5  HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEX WITH 17BETA-ESTRADIOL   PDBfixfunc74  1ERE_5_B_fixed.pdb 
+3UUD_1  Crystal structure of hERa-LBD (Y537S) in complex with estradiol                  PDBfixfunc74  3UUD_1_A_fixed.pdb 
+3UUD_2  Crystal structure of hERa-LBD (Y537S) in complex with estradiol                  PDBfixfunc74  3UUD_2_A_fixed.pdb 
+3UUD_3  Crystal structure of hERa-LBD (Y537S) in complex with estradiol                  PDBfixfunc74  3UUD_3_A_fixed.pdb 
+3UUD_4  Crystal structure of hERa-LBD (Y537S) in complex with estradiol                  PDBfixfunc74  3UUD_4_A_fixed.pdb 
+3UUD_5  Crystal structure of hERa-LBD (Y537S) in complex with estradiol                  PDBfixfunc74  3UUD_5_A_fixed.pdb 
+3UU7_1  Crystal structure of hERa-LBD (Y537S) in complex with bisphenol-A                PDBfixfunc74  3UU7_1_B_fixed.pdb 
+3UU7_2  Crystal structure of hERa-LBD (Y537S) in complex with bisphenol-A                PDBfixfunc74  3UU7_2_B_fixed.pdb 
+3UU7_3  Crystal structure of hERa-LBD (Y537S) in complex with bisphenol-A                PDBfixfunc74  3UU7_3_B_fixed.pdb 
+3UU7_4  Crystal structure of hERa-LBD (Y537S) in complex with bisphenol-A                PDBfixfunc74  3UU7_4_B_fixed.pdb 
+3UU7_5  Crystal structure of hERa-LBD (Y537S) in complex with bisphenol-A                PDBfixfunc74  3UU7_5_B_fixed.pdb 
+
+Ligands:
+id                 name                               prep                       localfilename        
+EST_ideal                                             Wget 3d .sdf from PubChem  EST_ideal_PubChem.sdf
+2OH_ideal                                             Wget 3d .sdf from PubChem  2OH_ideal_PubChem.sdf
+EST_redock_1ERE_1  EST extracted from protein 1ERE_1  rdkit_save_H               EST_redock_1ERE_B.sdf
+EST_redock_1ERE_2  EST extracted from protein 1ERE_2  rdkit_save_H               EST_redock_1ERE_B.sdf
+EST_redock_1ERE_3  EST extracted from protein 1ERE_3  rdkit_save_H               EST_redock_1ERE_B.sdf
+EST_redock_1ERE_4  EST extracted from protein 1ERE_4  rdkit_save_H               EST_redock_1ERE_B.sdf
+EST_redock_1ERE_5  EST extracted from protein 1ERE_5  rdkit_save_H               EST_redock_1ERE_B.sdf
+EST_redock_3UUD_1  EST extracted from protein 3UUD_1  rdkit_save_H               EST_redock_3UUD_A.sdf
+EST_redock_3UUD_2  EST extracted from protein 3UUD_2  rdkit_save_H               EST_redock_3UUD_A.sdf
+EST_redock_3UUD_3  EST extracted from protein 3UUD_3  rdkit_save_H               EST_redock_3UUD_A.sdf
+EST_redock_3UUD_4  EST extracted from protein 3UUD_4  rdkit_save_H               EST_redock_3UUD_A.sdf
+EST_redock_3UUD_5  EST extracted from protein 3UUD_5  rdkit_save_H               EST_redock_3UUD_A.sdf
+2OH_redock_3UU7_1  2OH extracted from protein 3UU7_1  rdkit_save_H               2OH_redock_3UU7_B.sdf
+2OH_redock_3UU7_2  2OH extracted from protein 3UU7_2  rdkit_save_H               2OH_redock_3UU7_B.sdf
+2OH_redock_3UU7_3  2OH extracted from protein 3UU7_3  rdkit_save_H               2OH_redock_3UU7_B.sdf
+2OH_redock_3UU7_4  2OH extracted from protein 3UU7_4  rdkit_save_H               2OH_redock_3UU7_B.sdf
+2OH_redock_3UU7_5  2OH extracted from protein 3UU7_5  rdkit_save_H               2OH_redock_3UU7_B.sdf
+
+Gnina options:
+id         opt                                                                           
+gninaopt2  --exhaustiveness=16 --num_modes=9 --seed 0 --pose_sort_order CNNscore --no_gpu
+
+Results:
+proteinid + ligandid @ ligandid         CNN Score  CNN_VS  RMSD  
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.9830     8.2447  0.5767
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.9359     7.7237  2.6352
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.6067     4.4779  6.6458
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.4391     3.2284  6.2624
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.4068     3.0421  6.2186
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.2514     1.8465  1.8859
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.1188     0.7647  6.4768
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.0827     0.4717  3.3144
+1ERE_1 + EST_ideal @ EST_redock_1ERE_1  0.0803     0.4045  5.6087
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.9830     8.2497  0.5709
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.9407     7.7972  2.6365
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.6059     4.4688  6.6456
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.4423     3.2126  6.2732
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.3955     2.9504  6.2185
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.2875     2.1386  1.8513
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.1427     0.9311  6.5252
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.1192     0.7674  6.4768
+1ERE_2 + EST_ideal @ EST_redock_1ERE_2  0.1111     0.6477  3.5853
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.9831     8.2420  0.5676
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.9411     7.7850  2.6368
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.6097     4.4940  6.6457
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.6019     4.8239  1.7465
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.4124     3.0725  6.1858
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.4004     2.9844  6.2185
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.1283     0.6506  5.3609
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.0971     0.4882  3.9210
+1ERE_3 + EST_ideal @ EST_redock_1ERE_3  0.0879     0.5325  5.7915
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.9831     8.2508  0.5703
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.9398     7.7822  2.6342
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.6931     5.4566  2.0466
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.6092     4.4978  6.6457
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.5520     4.1412  6.2641
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.4034     3.0136  6.2181
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.2737     1.9492  1.9007
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.1057     0.6500  6.2138
+1ERE_4 + EST_ideal @ EST_redock_1ERE_4  0.0983     0.5051  3.9621
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.9830     8.2447  0.5766
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.9398     7.7803  2.6349
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.6067     4.4778  6.6457
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.5512     4.1332  6.2641
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.5004     3.7477  1.8441
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.4813     3.6358  6.2013
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.4058     3.0335  6.2188
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.1526     0.8063  5.4345
+1ERE_5 + EST_ideal @ EST_redock_1ERE_5  0.1403     0.9093  6.5236
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.9851     8.0833  0.5899
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.9525     7.6311  2.5585
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.7413     5.6844  2.6980
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.6880     5.0956  1.5759
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.6059     4.6151  6.2259
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.5196     3.8064  6.6519
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.2737     1.8459  2.1290
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.2654     1.7752  2.2668
+3UUD_1 + EST_ideal @ EST_redock_3UUD_1  0.2003     1.3436  6.5150
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.9848     8.0733  0.5914
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.9526     7.6319  2.5582
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.7413     5.6845  2.6980
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.6464     4.8034  1.5834
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.6043     4.6009  6.2258
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.5795     4.3502  6.2860
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.5188     3.8008  6.6519
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.2813     1.8987  2.1213
+3UUD_2 + EST_ideal @ EST_redock_3UUD_2  0.2654     1.7752  2.2668
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.9850     8.0823  0.5902
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.9524     7.6296  2.5585
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.7411     5.6831  2.6980
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.6868     5.0860  1.5764
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.6052     4.6090  6.2259
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.5196     3.8075  6.6520
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.2803     1.8916  2.1213
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.2654     1.7750  2.2668
+3UUD_3 + EST_ideal @ EST_redock_3UUD_3  0.1996     1.3387  6.5150
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.9852     8.0878  0.5903
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.9538     7.6530  2.5535
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.7410     5.6842  2.6980
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.6060     4.6173  6.2260
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.5205     3.8152  6.6521
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.2644     1.7692  2.2668
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.2639     1.7744  2.1365
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.2487     1.7658  1.6972
+3UUD_4 + EST_ideal @ EST_redock_3UUD_4  0.1099     0.5756  4.9728
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.9846     8.0656  0.5980
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.9526     7.6317  2.5582
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.7413     5.6844  2.6980
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.6878     5.0935  1.5764
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.6055     4.6115  6.2260
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.5229     3.8330  6.6521
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.2810     1.8965  2.1213
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.2654     1.7752  2.2668
+3UUD_5 + EST_ideal @ EST_redock_3UUD_5  0.2003     1.3437  6.5150
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.8792     6.0837  3.3580
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.8725     6.0212  3.3754
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.8644     5.9795  3.3475
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.7808     5.8637  1.0280
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.7518     5.5292  1.0006
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.6558     4.8137  1.8420
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.6490     4.7581  1.8327
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.6414     4.5510  2.6870
+3UU7_1 + 2OH_ideal @ 2OH_redock_3UU7_1  0.6407     4.7156  1.8018
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.8822     6.1094  3.3575
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.8708     6.0530  3.3654
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.8706     6.0015  3.3740
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.7293     5.3684  1.1966
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.6623     4.7033  2.6054
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.6493     4.6175  2.7076
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.6490     4.7905  1.8055
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.6466     4.6131  2.7068
+3UU7_2 + 2OH_ideal @ 2OH_redock_3UU7_2  0.6409     4.6981  1.8314
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.8804     6.1002  3.3550
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.8687     6.0044  3.3763
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.8422     6.2679  0.8362
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.6876     4.7151  2.4147
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.6579     4.6732  2.7140
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.6562     4.8249  1.8294
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.6544     4.8224  1.7815
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.6445     4.2558  1.3846
+3UU7_3 + 2OH_ideal @ 2OH_redock_3UU7_3  0.6432     4.5786  2.7018
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.8778     6.0849  3.3589
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.8729     6.0297  3.3754
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.8725     6.0307  3.3698
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.7810     5.8598  1.0758
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.7801     5.8640  1.0329
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.6713     4.7913  2.7121
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.6664     4.9185  1.7840
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.6492     4.7647  1.8327
+3UU7_4 + 2OH_ideal @ 2OH_redock_3UU7_4  0.6396     4.7029  2.1288
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.8722     6.0377  3.3678
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.8658     5.9872  3.3724
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.8637     5.9853  3.3386
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.6649     4.8946  1.8249
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.6602     4.4992  3.3646
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.6544     4.8186  1.7841
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.6528     4.3187  1.4900
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.6502     4.6355  2.6827
+3UU7_5 + 2OH_ideal @ 2OH_redock_3UU7_5  0.6384     4.5179  2.7190
