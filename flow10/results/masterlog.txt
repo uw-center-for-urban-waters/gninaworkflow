@@ -72,3 +72,4 @@ Buccheri_5edu                       0.9700     6.8800  1.8000
 5edu_Redo + TSN_ideal @ TSN_redock  0.7868     5.2267  2.5177 
 5edu_Redo + TSN_ideal @ TSN_redock  0.7447     4.8111  1.9838 
 5edu_Redo + TSN_ideal @ TSN_redock  0.7080     4.4991  2.7504 
+

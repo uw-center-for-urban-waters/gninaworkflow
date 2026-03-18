@@ -1,0 +1,132 @@
+{
+    "1ERE": {
+        "id": "1ERE",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "EST",
+        "source": "https://files.rcsb.org/download/1ERE.pdb",
+        "localfilename": "1ERE.pdb",
+        "localfilename_fixed": "1ERE_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "1GWR": {
+        "id": "1GWR",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "EST",
+        "source": "https://files.rcsb.org/download/1GWR.pdb",
+        "localfilename": "1GWR.pdb",
+        "localfilename_fixed": "1GWR_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "3UUD": {
+        "id": "3UUD",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "EST",
+        "source": "https://files.rcsb.org/download/3UUD.pdb",
+        "localfilename": "3UUD.pdb",
+        "localfilename_fixed": "3UUD_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "6CBZ": {
+        "id": "6CBZ",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "EST",
+        "source": "https://files.rcsb.org/download/6CBZ.pdb",
+        "localfilename": "6CBZ.pdb",
+        "localfilename_fixed": "6CBZ_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "3ERD": {
+        "id": "3ERD",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "DES",
+        "source": "https://files.rcsb.org/download/3ERD.pdb",
+        "localfilename": "3ERD.pdb",
+        "localfilename_fixed": "3ERD_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "4ZN7": {
+        "id": "4ZN7",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "DES",
+        "source": "https://files.rcsb.org/download/4ZN7.pdb",
+        "localfilename": "4ZN7.pdb",
+        "localfilename_fixed": "4ZN7_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "4MGC": {
+        "id": "4MGC",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "27M",
+        "source": "https://files.rcsb.org/download/4MGC.pdb",
+        "localfilename": "4MGC.pdb",
+        "localfilename_fixed": "4MGC_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "4MG8": {
+        "id": "4MG8",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "27J",
+        "source": "https://files.rcsb.org/download/4MG8.pdb",
+        "localfilename": "4MG8.pdb",
+        "localfilename_fixed": "4MG8_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "4TUZ": {
+        "id": "4TUZ",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "36J",
+        "source": "https://files.rcsb.org/download/4TUZ.pdb",
+        "localfilename": "4TUZ.pdb",
+        "localfilename_fixed": "4TUZ_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "3UU7": {
+        "id": "3UU7",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "2OH",
+        "source": "https://files.rcsb.org/download/3UU7.pdb",
+        "localfilename": "3UU7.pdb",
+        "localfilename_fixed": "3UU7_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "4MG9": {
+        "id": "4MG9",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "27K",
+        "source": "https://files.rcsb.org/download/4MG9.pdb",
+        "localfilename": "4MG9.pdb",
+        "localfilename_fixed": "4MG9_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "4MGA": {
+        "id": "4MGA",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "27L",
+        "source": "https://files.rcsb.org/download/4MGA.pdb",
+        "localfilename": "4MGA.pdb",
+        "localfilename_fixed": "4MGA_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    },
+    "1G50": {
+        "id": "1G50",
+        "name": "",
+        "keepchain": "A",
+        "keephet": "EST",
+        "source": "https://files.rcsb.org/download/1G50.pdb",
+        "localfilename": "1G50.pdb",
+        "localfilename_fixed": "1G50_A_fixed.pdb",
+        "prep": "PDBfixfunc74"
+    }
+}
