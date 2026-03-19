@@ -1,0 +1,9 @@
+RMSD :7184 inf
+RMSD :7184 inf
+RMSD :7184 inf
+RMSD :7184 inf
+RMSD :7184 inf
+RMSD :7184 inf
+RMSD :7184 inf
+RMSD :7184 inf
+RMSD :7184 inf
