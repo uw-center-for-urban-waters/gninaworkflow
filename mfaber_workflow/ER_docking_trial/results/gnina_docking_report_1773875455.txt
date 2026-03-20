@@ -1,0 +1,183 @@
+Report produced 2026-03-19 16:10:55 | experiment id: 1773875455
+
+GNINA cross-docking run:
+Each estrogen receptor protein was docked against all minimized ideal ligands.
+RMSD is reported only for matching native ligand pairs.
+
+Ligands included in this run:
+Ligand ID        Ligand Name                    Ligand Type
+27J_min         alpha-zearalanol               Moderate Antagonist
+27K_min         Butyl paraben                  Weak agonist/Strong Antagonist
+27L_min         4-tert-octylphenol             Weak agonist
+27M_min         Benzophenone-2                 Agonist
+2OH_min         Bisphenol A (BPA)              Weak Agonist/Weak Antagonist
+36J_min         alpha-zearalenol               Antagonist
+Caffeine_min    Caffeine                       Inactive
+DES_min         Diethylstilbestrol (DES)       Agonist
+EE2_min         EE2                            Agonist
+EST_min         17β-estradiol (E2)             Agonist
+Melatonin_min   Melatonin                      Inactive
+Testosterone_min Testosterone                   Weak agonist/moderate antagonist
+
+Gnina options:
+exhaustiveness 16
+seed 0
+
+Results:
+protein + native_ligand | docked_ligand        CNN Score     CNN_VS       RMSD
+6CBZ_A_fixed.pdb + EST | 27J_min                                 0.6742     4.422078          nan
+3UUD_A_fixed.pdb + EST | 27J_min                                 0.6731     4.546791          nan
+4ZN7_A_fixed.pdb + DES | 27J_min                                 0.6441     4.179565          nan
+1GWR_A_fixed.pdb + EST | 27J_min                                 0.6225     4.085468          nan
+4MGA_A_fixed.pdb + 27L | 27J_min                                 0.4214     2.592874          nan
+1G50_A_fixed.pdb + EST | 27J_min                                 0.3598     2.304159          nan
+4MG9_A_fixed.pdb + 27K | 27J_min                                 0.6565     4.501620          nan
+3ERD_A_fixed.pdb + DES | 27J_min                                 0.6121     3.932742          nan
+4MG8_A_fixed.pdb + 27J | 27J_min                                 0.6184     3.844593     1.396880
+4MGC_A_fixed.pdb + 27M | 27J_min                                 0.6085     4.034964          nan
+3UU7_A_fixed.pdb + 2OH | 27J_min                                 0.6879     4.950816          nan
+4TUZ_A_fixed.pdb + 36J | 27J_min                                 0.7257     4.764946          nan
+1ERE_A_fixed.pdb + EST | 27J_min                                 0.6480     4.660416          nan
+3UUD_A_fixed.pdb + EST | 27K_min                                 0.9190     5.283331          nan
+4TUZ_A_fixed.pdb + 36J | 27K_min                                 0.8726     5.097729          nan
+1G50_A_fixed.pdb + EST | 27K_min                                 0.8974     5.879765          nan
+4MGC_A_fixed.pdb + 27M | 27K_min                                 0.8899     5.016366          nan
+4MG9_A_fixed.pdb + 27K | 27K_min                                 0.9252     5.161691     2.453430
+4ZN7_A_fixed.pdb + DES | 27K_min                                 0.9375     5.430937          nan
+4MGA_A_fixed.pdb + 27L | 27K_min                                 0.8909     5.301746          nan
+6CBZ_A_fixed.pdb + EST | 27K_min                                 0.9214     5.411382          nan
+4MG8_A_fixed.pdb + 27J | 27K_min                                 0.8880     4.773000          nan
+1ERE_A_fixed.pdb + EST | 27K_min                                 0.8967     4.843077          nan
+3UU7_A_fixed.pdb + 2OH | 27K_min                                 0.9118     5.368678          nan
+3ERD_A_fixed.pdb + DES | 27K_min                                 0.9182     5.215376          nan
+1GWR_A_fixed.pdb + EST | 27K_min                                 0.9136     4.920650          nan
+4TUZ_A_fixed.pdb + 36J | 27L_min                                 0.8887     6.270667          nan
+1GWR_A_fixed.pdb + EST | 27L_min                                 0.9051     6.179118          nan
+3UUD_A_fixed.pdb + EST | 27L_min                                 0.9499     6.729092          nan
+3UU7_A_fixed.pdb + 2OH | 27L_min                                 0.9458     6.707614          nan
+4ZN7_A_fixed.pdb + DES | 27L_min                                 0.9534     6.792975          nan
+4MGA_A_fixed.pdb + 27L | 27L_min                                 0.9521     6.941761     2.851640
+3ERD_A_fixed.pdb + DES | 27L_min                                 0.9544     6.925126          nan
+6CBZ_A_fixed.pdb + EST | 27L_min                                 0.8989     6.270726          nan
+1ERE_A_fixed.pdb + EST | 27L_min                                 0.9506     6.807247          nan
+1G50_A_fixed.pdb + EST | 27L_min                                 0.9353     6.901579          nan
+4MGC_A_fixed.pdb + 27M | 27L_min                                 0.9352     6.424824          nan
+4MG8_A_fixed.pdb + 27J | 27L_min                                 0.8972     5.590453          nan
+4MG9_A_fixed.pdb + 27K | 27L_min                                 0.9242     6.349254          nan
+3UUD_A_fixed.pdb + EST | 27M_min                                 0.7995     4.911328          nan
+4TUZ_A_fixed.pdb + 36J | 27M_min                                 0.7969     4.765462          nan
+4MGA_A_fixed.pdb + 27L | 27M_min                                 0.8029     4.466533          nan
+4ZN7_A_fixed.pdb + DES | 27M_min                                 0.8720     5.224152          nan
+3UU7_A_fixed.pdb + 2OH | 27M_min                                 0.8323     4.407861          nan
+1GWR_A_fixed.pdb + EST | 27M_min                                 0.8803     4.790593          nan
+4MGC_A_fixed.pdb + 27M | 27M_min                                 0.8034     4.575363     2.247300
+4MG8_A_fixed.pdb + 27J | 27M_min                                 0.7407     4.261988          nan
+1ERE_A_fixed.pdb + EST | 27M_min                                 0.7607     4.386196          nan
+1G50_A_fixed.pdb + EST | 27M_min                                 0.6902     3.798171          nan
+3ERD_A_fixed.pdb + DES | 27M_min                                 0.8551     4.826184          nan
+6CBZ_A_fixed.pdb + EST | 27M_min                                 0.8166     4.633388          nan
+4MG9_A_fixed.pdb + 27K | 27M_min                                 0.8210     4.149334          nan
+4TUZ_A_fixed.pdb + 36J | 2OH_min                                 0.7623     5.472552          nan
+4MG8_A_fixed.pdb + 27J | 2OH_min                                 0.7419     4.836446          nan
+4MGA_A_fixed.pdb + 27L | 2OH_min                                 0.9151     6.397464          nan
+1ERE_A_fixed.pdb + EST | 2OH_min                                 0.8796     6.262752          nan
+4MG9_A_fixed.pdb + 27K | 2OH_min                                 0.8078     5.274126          nan
+1G50_A_fixed.pdb + EST | 2OH_min                                 0.7724     5.568232          nan
+3ERD_A_fixed.pdb + DES | 2OH_min                                 0.8716     6.046289          nan
+3UUD_A_fixed.pdb + EST | 2OH_min                                 0.7934     5.737869          nan
+1GWR_A_fixed.pdb + EST | 2OH_min                                 0.8990     6.236363          nan
+4MGC_A_fixed.pdb + 27M | 2OH_min                                 0.7976     5.473131          nan
+3UU7_A_fixed.pdb + 2OH | 2OH_min                                 0.8919     6.516221     0.608828
+4ZN7_A_fixed.pdb + DES | 2OH_min                                 0.9167     6.559905          nan
+6CBZ_A_fixed.pdb + EST | 2OH_min                                 0.8235     5.922612          nan
+1GWR_A_fixed.pdb + EST | 36J_min                                 0.8774     6.313770          nan
+3UUD_A_fixed.pdb + EST | 36J_min                                 0.8931     6.146314          nan
+6CBZ_A_fixed.pdb + EST | 36J_min                                 0.7976     5.600747          nan
+4MGC_A_fixed.pdb + 27M | 36J_min                                 0.8349     5.896899          nan
+4MG9_A_fixed.pdb + 27K | 36J_min                                 0.7976     5.237839          nan
+4ZN7_A_fixed.pdb + DES | 36J_min                                 0.6515     4.443230          nan
+4MG8_A_fixed.pdb + 27J | 36J_min                                 0.9335     6.494359          nan
+3UU7_A_fixed.pdb + 2OH | 36J_min                                 0.8176     5.721565          nan
+1ERE_A_fixed.pdb + EST | 36J_min                                 0.7976     5.410121          nan
+1G50_A_fixed.pdb + EST | 36J_min                                 0.7447     5.204708          nan
+4MGA_A_fixed.pdb + 27L | 36J_min                                 0.6471     4.274743          nan
+4TUZ_A_fixed.pdb + 36J | 36J_min                                 0.9037     6.267159     0.541129
+3ERD_A_fixed.pdb + DES | 36J_min                                 0.7729     5.234852          nan
+4TUZ_A_fixed.pdb + 36J | Caffeine_min                            0.5733     2.775345          nan
+4MG9_A_fixed.pdb + 27K | Caffeine_min                            0.5281     2.493688          nan
+3UU7_A_fixed.pdb + 2OH | Caffeine_min                            0.6016     3.149376          nan
+6CBZ_A_fixed.pdb + EST | Caffeine_min                            0.6749     3.346154          nan
+4MGA_A_fixed.pdb + 27L | Caffeine_min                            0.6105     3.137360          nan
+1GWR_A_fixed.pdb + EST | Caffeine_min                            0.4636     2.239188          nan
+4ZN7_A_fixed.pdb + DES | Caffeine_min                            0.7520     4.042000          nan
+1ERE_A_fixed.pdb + EST | Caffeine_min                            0.5861     3.034240          nan
+3ERD_A_fixed.pdb + DES | Caffeine_min                            0.5976     2.869078          nan
+4MG8_A_fixed.pdb + 27J | Caffeine_min                            0.6274     3.182800          nan
+4MGC_A_fixed.pdb + 27M | Caffeine_min                            0.7292     3.928200          nan
+3UUD_A_fixed.pdb + EST | Caffeine_min                            0.6987     3.615074          nan
+1G50_A_fixed.pdb + EST | Caffeine_min                            0.5494     2.735463          nan
+4MG9_A_fixed.pdb + 27K | DES_min                                 0.8746     6.910215          nan
+1ERE_A_fixed.pdb + EST | DES_min                                 0.9172     7.554976          nan
+3UU7_A_fixed.pdb + 2OH | DES_min                                 0.8978     7.098007          nan
+1G50_A_fixed.pdb + EST | DES_min                                 0.8962     7.381103          nan
+4MGA_A_fixed.pdb + 27L | DES_min                                 0.9449     7.471324          nan
+3ERD_A_fixed.pdb + DES | DES_min                                 0.9885     8.273745     0.350969
+4TUZ_A_fixed.pdb + 36J | DES_min                                 0.8939     7.237014          nan
+4MG8_A_fixed.pdb + 27J | DES_min                                 0.9263     7.338149          nan
+3UUD_A_fixed.pdb + EST | DES_min                                 0.9419     7.624681          nan
+1GWR_A_fixed.pdb + EST | DES_min                                 0.9194     7.321182          nan
+4MGC_A_fixed.pdb + 27M | DES_min                                 0.9596     7.941650          nan
+4ZN7_A_fixed.pdb + DES | DES_min                                 0.9838     8.389846     0.467688
+6CBZ_A_fixed.pdb + EST | DES_min                                 0.9340     7.567268          nan
+4MG9_A_fixed.pdb + 27K | EE2_min                                 0.9257     7.517610          nan
+6CBZ_A_fixed.pdb + EST | EE2_min                                 0.8847     7.268695          nan
+3ERD_A_fixed.pdb + DES | EE2_min                                 0.8849     7.029646          nan
+4TUZ_A_fixed.pdb + 36J | EE2_min                                 0.8075     6.678025          nan
+1ERE_A_fixed.pdb + EST | EE2_min                                 0.9551     8.193803          nan
+3UUD_A_fixed.pdb + EST | EE2_min                                 0.8811     7.181846          nan
+1G50_A_fixed.pdb + EST | EE2_min                                 0.8579     7.116281          nan
+4MGC_A_fixed.pdb + 27M | EE2_min                                 0.7633     5.901836          nan
+4ZN7_A_fixed.pdb + DES | EE2_min                                 0.8757     7.277943          nan
+1GWR_A_fixed.pdb + EST | EE2_min                                 0.9276     7.808537          nan
+4MGA_A_fixed.pdb + 27L | EE2_min                                 0.7002     5.292812          nan
+4MG8_A_fixed.pdb + 27J | EE2_min                                 0.8573     7.040148          nan
+3UU7_A_fixed.pdb + 2OH | EE2_min                                 0.6114     4.727345          nan
+4TUZ_A_fixed.pdb + 36J | EST_min                                 0.9624     7.921514          nan
+4ZN7_A_fixed.pdb + DES | EST_min                                 0.9759     8.302957          nan
+6CBZ_A_fixed.pdb + EST | EST_min                                 0.9828     8.275176     0.521345
+1GWR_A_fixed.pdb + EST | EST_min                                 0.9757     8.005619     0.565504
+3ERD_A_fixed.pdb + DES | EST_min                                 0.9713     7.670356          nan
+4MGA_A_fixed.pdb + 27L | EST_min                                 0.8679     6.927578          nan
+1ERE_A_fixed.pdb + EST | EST_min                                 0.9822     8.201370     0.514289
+4MG9_A_fixed.pdb + 27K | EST_min                                 0.8963     6.880895          nan
+3UU7_A_fixed.pdb + 2OH | EST_min                                 0.9144     7.301484          nan
+4MGC_A_fixed.pdb + 27M | EST_min                                 0.9514     7.711097          nan
+4MG8_A_fixed.pdb + 27J | EST_min                                 0.9711     7.748407          nan
+1G50_A_fixed.pdb + EST | EST_min                                 0.9710     8.137951     0.828745
+3UUD_A_fixed.pdb + EST | EST_min                                 0.9854     8.048747     0.612739
+3ERD_A_fixed.pdb + DES | Melatonin_min                           0.6214     4.069549          nan
+6CBZ_A_fixed.pdb + EST | Melatonin_min                           0.6644     4.660766          nan
+3UU7_A_fixed.pdb + 2OH | Melatonin_min                           0.5982     3.891889          nan
+4MG8_A_fixed.pdb + 27J | Melatonin_min                           0.6890     4.614233          nan
+3UUD_A_fixed.pdb + EST | Melatonin_min                           0.5585     3.506822          nan
+1G50_A_fixed.pdb + EST | Melatonin_min                           0.4216     2.652286          nan
+1GWR_A_fixed.pdb + EST | Melatonin_min                           0.5736     3.455366          nan
+4MG9_A_fixed.pdb + 27K | Melatonin_min                           0.4180     2.610828          nan
+4MGA_A_fixed.pdb + 27L | Melatonin_min                           0.7575     5.129790          nan
+4TUZ_A_fixed.pdb + 36J | Melatonin_min                           0.6158     4.042111          nan
+1ERE_A_fixed.pdb + EST | Melatonin_min                           0.5167     3.409703          nan
+4MGC_A_fixed.pdb + 27M | Melatonin_min                           0.5245     3.174798          nan
+4ZN7_A_fixed.pdb + DES | Melatonin_min                           0.6149     3.897851          nan
+6CBZ_A_fixed.pdb + EST | Testosterone_min                        0.9032     7.221084          nan
+1G50_A_fixed.pdb + EST | Testosterone_min                        0.8531     6.812004          nan
+1GWR_A_fixed.pdb + EST | Testosterone_min                        0.8737     6.810492          nan
+4TUZ_A_fixed.pdb + 36J | Testosterone_min                        0.9164     7.333033          nan
+3ERD_A_fixed.pdb + DES | Testosterone_min                        0.9033     6.956313          nan
+4ZN7_A_fixed.pdb + DES | Testosterone_min                        0.8517     6.821265          nan
+4MG8_A_fixed.pdb + 27J | Testosterone_min                        0.9064     7.281111          nan
+4MG9_A_fixed.pdb + 27K | Testosterone_min                        0.8728     6.621061          nan
+4MGA_A_fixed.pdb + 27L | Testosterone_min                        0.7576     5.997162          nan
+4MGC_A_fixed.pdb + 27M | Testosterone_min                        0.9286     7.470587          nan
+3UU7_A_fixed.pdb + 2OH | Testosterone_min                        0.8879     7.031280          nan
+3UUD_A_fixed.pdb + EST | Testosterone_min                        0.9205     7.427515          nan
+1ERE_A_fixed.pdb + EST | Testosterone_min                        0.8798     6.957458          nan
