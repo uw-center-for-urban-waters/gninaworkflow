@@ -11,18 +11,18 @@ gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
 gnina is based on smina and AutoDock Vina.
 Please cite appropriately.
 
-Commandline: /home/dwaine/octoberproject/gnina -r preprocessed/proteinprep/3UUD_A_fixed.pdb -l preprocessed/minimized_ideal_ligand/36J_min.sdf --autobox_ligand preprocessed/ligandprep/EST_redock_3UUD_A.sdf -o results/docked.sdf --log results/gninalog.txt --exhaustiveness=16 --num_modes=9 --seed 0 --pose_sort_order CNNscore --no_gpu
+Commandline: /home/dwaine/octoberproject/gnina -r preprocessed/proteinprep/1ERE_A_fixed.pdb -l preprocessed/minimized_ideal_ligand/EE2_min.sdf --autobox_ligand preprocessed/ligandprep/EST_redock_1ERE_A.sdf -o results/docked.sdf --log results/gninalog.txt --exhaustiveness=16 --num_modes=9 --seed 0 --pose_sort_order CNNscore --no_gpu
 Using random seed: 0
 
 mode |  affinity  |  intramol  |    CNN     |   CNN
      | (kcal/mol) | (kcal/mol) | pose score | affinity
 -----+------------+------------+------------+----------
-    1      -10.14        0.00       0.8929      6.882
-    2      -10.70        0.00       0.8067      6.772
-    3       -8.91        0.00       0.7683      6.678
-    4       -2.36        0.00       0.1998      5.788
-    5        7.71        0.00       0.1611      5.757
-    6       -4.68        0.00       0.1398      5.632
-    7       17.77        0.00       0.1128      4.848
-    8        1.05        0.00       0.1074      4.818
-    9        5.23        0.00       0.1053      5.370
+    1       -9.96       -0.24       0.9551      8.579
+    2       -8.99       -0.24       0.5983      7.847
+    3       -5.99       -0.24       0.3774      7.480
+    4       -4.67       -0.24       0.1854      6.974
+    5       -5.17       -0.24       0.1720      7.181
+    6       -3.32       -0.24       0.1671      7.026
+    7       35.92       -0.24       0.1438      5.250
+    8       -2.00       -0.24       0.1294      6.564
+    9       24.62       -0.24       0.1280      5.524
