@@ -1,0 +1,9 @@
+protein,ideal_ligand,native_ligand,CNN_pose,CNN_VS,RMSD
+1ERE,decoy1,EST_redock_1ERE,0.9196,6.6102,inf
+1ERE,27K_min,EST_redock_1ERE,0.8967,4.8425,inf
+1ERE,27J_min,EST_redock_1ERE,0.6478,4.6592,inf
+1ERE,decoy2,EST_redock_1ERE,0.5041,3.4317,inf
+1GWR,27K_min,EST_redock_1GWR,0.9136,4.9213,inf
+1GWR,decoy1,EST_redock_1GWR,0.8540,5.7935,inf
+1GWR,27J_min,EST_redock_1GWR,0.6222,4.0833,inf
+1GWR,decoy2,EST_redock_1GWR,0.5891,4.1652,inf
