@@ -1,108 +1,70 @@
 CAS,CID,MolecularFormula,MolecularWeight,IUPACName
-120-47-8,8434.0,C9H10O3,166.17,ethyl 4-hydroxybenzoate
-72-55-9,3035.0,C14H8Cl4,318.0,"1-chloro-4-[2,2-dichloro-1-(4-chlorophenyl)ethenyl]benzene"
-72-43-5,4115.0,C16H15Cl3O2,345.6,"1-methoxy-4-[2,2,2-trichloro-1-(4-methoxyphenyl)ethyl]benzene"
-53-19-0,4211.0,C14H10Cl4,320.0,"1-chloro-2-[2,2-dichloro-1-(4-chlorophenyl)ethyl]benzene"
-59-50-7,1732.0,C7H7ClO,142.58,4-chloro-3-methylphenol
-207-13-4,,,,
-1570-64-5,14855.0,C7H7ClO,142.58,4-chloro-2-methylphenol
-72-54-8,6294.0,C14H10Cl4,320.0,"1-chloro-4-[2,2-dichloro-1-(4-chlorophenyl)ethyl]benzene"
-97-54-1,853433.0,C10H12O2,164.2,2-methoxy-4-[(E)-prop-1-enyl]phenol
-85-68-7,2347.0,C19H20O4,312.4,"2-O-benzyl 1-O-butyl benzene-1,2-dicarboxylate"
-90-43-7,7017.0,C12H10O,170.21,2-phenylphenol
-99-76-3,7456.0,C8H8O3,152.15,methyl 4-hydroxybenzoate
-92-69-3,7103.0,C12H10O,170.21,4-phenylphenol
-140-10-3,444539.0,C9H8O2,148.16,(E)-3-phenylprop-2-enoic acid
-131-57-7,4632.0,C14H12O3,228.24,(2-hydroxy-4-methoxyphenyl)-phenylmethanone
-115-29-7,3224.0,C9H6Cl6O3S,406.9,"1,9,10,11,12,12-hexachloro-4,6-dioxa-5lambda4-thiatricyclo[7.2.1.02,8]dodec-10-ene 5-oxide"
-115-86-6,8289.0,C18H15O4P,326.3,triphenyl phosphate
-123-07-9,31242.0,C8H10O,122.16,4-ethylphenol
-84-69-5,6782.0,C16H22O4,278.34,"bis(2-methylpropyl) benzene-1,2-dicarboxylate"
-481-30-1,10204.0,C19H28O2,288.4,"(8R,9S,10R,13S,14S,17R)-17-hydroxy-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one"
-84-74-2,3026.0,C16H22O4,278.34,"dibutyl benzene-1,2-dicarboxylate"
-571-22-2,11302.0,C19H30O2,290.4,"(5R,8R,9S,10S,13S,14S,17S)-17-hydroxy-10,13-dimethyl-1,2,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydrocyclopenta[a]phenanthren-3-one"
-218-01-9,9171.0,C18H12,228.3,chrysene
-131-56-6,8572.0,C13H10O3,214.22,"(2,4-dihydroxyphenyl)-phenylmethanone"
-143-74-8,4766.0,C19H14O5S,354.4,"4-[3-(4-hydroxyphenyl)-1,1-dioxo-2,1lambda6-benzoxathiol-3-yl]phenol"
-58-89-9,727.0,C6H6Cl6,290.8,"1,2,3,4,5,6-hexachlorocyclohexane"
-60-57-1,969491.0,C12H8Cl6O,380.9,"(1R,2S,3S,6R,7R,8S,9S,11R)-3,4,5,6,13,13-hexachloro-10-oxapentacyclo[6.3.1.13,6.02,7.09,11]tridec-4-ene"
-50-02-2,5743.0,C22H29FO5,392.5,"(8S,9R,10S,11S,13S,14S,16R,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13,16-trimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one"
-81-90-3,66494.0,C20H16O4,320.3,2-[bis(4-hydroxyphenyl)methyl]benzoic acid
-80-09-1,6626.0,C12H10O4S,250.27,4-(4-hydroxyphenyl)sulfonylphenol
-2050-68-2,16308.0,C12H8Cl2,223.09,1-chloro-4-(4-chlorophenyl)benzene
-521-18-6,10635.0,C19H30O2,290.4,"(5S,8R,9S,10S,13S,14S,17S)-17-hydroxy-10,13-dimethyl-1,2,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydrocyclopenta[a]phenanthren-3-one"
-1806-26-4,15730.0,C14H22O,206.32,4-octylphenol
-1852-53-5,15818.0,C19H32O2,292.5,"(3R,5S,8R,9S,10S,13S,14S,17S)-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthrene-3,17-diol"
-15372-34-6,11954177.0,C19H22O3,298.4,"(1S,2R)-1-ethyl-7-methoxy-2-methyl-3,4-dihydro-1H-phenanthrene-2-carboxylic acid"
-13037-86-0,25641.0,C13H20O2,208.3,4-heptoxyphenol
-94-25-7,2482.0,C11H15NO2,193.24,butyl 4-aminobenzoate
-1085-12-7,14138.0,C14H20O3,236.31,heptyl 4-hydroxybenzoate
-599-64-4,11742.0,C15H16O,212.29,4-(2-phenylpropan-2-yl)phenol
-57-88-5,5997.0,C27H46O,386.7,"(3S,8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol"
-94-26-8,7184.0,C11H14O3,194.23,butyl 4-hydroxybenzoate
-98-54-4,7393.0,C10H14O,150.22,4-tert-butylphenol
-58-22-0,6013.0,C19H28O2,288.4,"(8R,9S,10R,13S,14S,17S)-17-hydroxy-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one"
-28034-99-3,91589.0,C12H9ClO,204.65,4-(4-chlorophenyl)phenol
-50-22-6,5753.0,C21H30O4,346.5,"(8S,9S,10R,11S,13S,14S,17S)-11-hydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one"
-94-18-8,7180.0,C14H12O3,228.24,benzyl 4-hydroxybenzoate
-243-17-4,9201.0,C17H12,216.28,11H-benzo[b]fluorene
-53-45-2,5882.0,C18H22O,254.4,"(8R,9S,13S,14S)-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one"
-121-33-5,1183.0,C8H8O3,152.15,4-hydroxy-3-methoxybenzaldehyde
-80-46-6,6643.0,C11H16O,164.24,4-(2-methylbutan-2-yl)phenol
-97-53-0,3314.0,C10H12O2,164.2,2-methoxy-4-prop-2-enylphenol
-50-29-3,3036.0,C14H9Cl5,354.5,"1-chloro-4-[2,2,2-trichloro-1-(4-chlorophenyl)ethyl]benzene"
-80-05-7,6623.0,C15H16O2,228.29,4-[2-(4-hydroxyphenyl)propan-2-yl]phenol
-92-04-6,7074.0,C12H9ClO,204.65,2-chloro-4-phenylphenol
-580-51-8,11381.0,C12H10O,170.21,3-phenylphenol
-6554-98-9,5284650.0,C14H12O,196.24,4-[(E)-2-phenylethenyl]phenol
-103-16-2,7638.0,C13H12O2,200.23,4-phenylmethoxyphenol
-94-13-3,7175.0,C10H12O3,180.2,propyl 4-hydroxybenzoate
-58-72-0,6025.0,C20H16,256.3,"1,2-diphenylethenylbenzene"
-83-46-5,222284.0,C29H50O,414.7,"(3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol"
-611-99-4,69150.0,C13H10O3,214.22,bis(4-hydroxyphenyl)methanone
-99-71-8,7453.0,C10H14O,150.22,4-butan-2-ylphenol
-126-00-1,67174.0,C17H18O4,286.32,"4,4-bis(4-hydroxyphenyl)pentanoic acid"
-789-02-6,13089.0,C14H9Cl5,354.5,"1-chloro-2-[2,2,2-trichloro-1-(4-chlorophenyl)ethyl]benzene"
-57-83-0,5994.0,C21H30O2,314.5,"(8S,9S,10R,13S,14S,17S)-17-acetyl-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one"
-1229-24-9,5284655.0,C18H24O3,288.4,"(6S,8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,6,17-triol"
-2529-64-8,228944.0,C18H24O,256.4,"(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-17-ol"
-65118-81-2,254232.0,C17H20O3,272.34,"3-(6-hydroxynaphthalen-2-yl)-2,2-dimethylpentanoic acid"
-1845-11-0,4416.0,C29H31NO2,425.6,"1-[2-[4-(6-methoxy-2-phenyl-3,4-dihydronaphthalen-1-yl)phenoxy]ethyl]pyrrolidine"
-603-45-2,5100.0,C19H14O3,290.3,"4-[bis(4-hydroxyphenyl)methylidene]cyclohexa-2,5-dien-1-one"
-5394-98-9,219592.0,C14H10O6,274.22,"1,2-bis(2,4-dihydroxyphenyl)ethane-1,2-dione"
-77-40-7,66166.0,C16H18O2,242.31,4-[2-(4-hydroxyphenyl)butan-2-yl]phenol
-659-22-3,5282363.0,C14H12O2,212.24,4-[(E)-2-(4-hydroxyphenyl)ethenyl]phenol
-140-66-9,8814.0,C14H22O,206.32,"4-(2,4,4-trimethylpentan-2-yl)phenol"
-25154-52-3,67296.0,C15H24O,220.35,2-nonylphenol
-2971-36-0,76302.0,C14H11Cl3O2,317.6,"4-[2,2,2-trichloro-1-(4-hydroxyphenyl)ethyl]phenol"
-500-38-9,4534.0,C18H22O4,302.4,"4-[4-(3,4-dihydroxyphenyl)-2,3-dimethylbutyl]benzene-1,2-diol"
-3434-79-5,242862.0,C19H26O3,302.4,"(8R,9S,13S,14S,16S,17R)-3-methoxy-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-16,17-diol"
-68-23-5,6231.0,C20H26O2,298.4,"(8R,9S,13S,14S,17R)-17-ethynyl-17-hydroxy-13-methyl-1,2,4,6,7,8,9,11,12,14,15,16-dodecahydrocyclopenta[a]phenanthren-3-one"
-911-45-5,2800.0,C26H28ClNO,406.0,"2-[4-(2-chloro-1,2-diphenylethenyl)phenoxy]-N,N-diethylethanamine"
-6052-84-2,80152.0,C14H14O2,214.26,4-[2-(4-hydroxyphenyl)ethyl]phenol
-53905-28-5,91653.0,C12H8Cl2O,239.09,"4-(2,5-dichlorophenyl)phenol"
-77-09-8,4764.0,C20H14O4,318.3,"3,3-bis(4-hydroxyphenyl)-2-benzofuran-1-one"
-28463-03-8,183679.0,C15H13Cl3O2,331.6,"4-[2,2,2-trichloro-1-(4-methoxyphenyl)ethyl]phenol"
-67651-34-7,105101.0,C12H6Cl4O,308.0,"4-(2,3,4,5-tetrachlorophenyl)phenol"
-5153-25-3,107377.0,C15H22O3,250.33,2-ethylhexyl 4-hydroxybenzoate
-143-50-0,299.0,C10Cl10O,490.6,"1,2,3,4,6,7,8,9,10,10-decachloropentacyclo[5.3.0.02,6.03,9.04,8]decan-5-one"
-7773-34-4,3032539.0,C20H24O2,296.4,1-methoxy-4-[(E)-4-(4-methoxyphenyl)hex-3-en-3-yl]benzene
-571-20-0,242332.0,C19H32O2,292.5,"(3S,5S,8R,9S,10S,13S,14S,17S)-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthrene-3,17-diol"
-104-43-8,66030.0,C18H30O,262.4,4-dodecylphenol
-75938-34-0,156639.0,C15H12Cl2O2,295.2,"4-[2,2-dichloro-1-(4-methoxyphenyl)ethenyl]phenol"
-3601-97-6,251869.0,C18H22O2,270.4,"(8S,9S,13R,14S)-3-hydroxy-13-methyl-7,8,9,11,12,14,15,17-octahydro-6H-cyclopenta[a]phenanthren-16-one"
-5108-94-1,5282364.0,C20H28O3,316.4,"(8R,9S,13S,14S,16S,17R)-3-methoxy-13,16-dimethyl-7,8,9,11,12,14,15,17-octahydro-6H-cyclopenta[a]phenanthrene-16,17-diol"
-57-63-6,5991.0,C20H24O2,296.4,"(8R,9S,13S,14S,17R)-17-ethynyl-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthrene-3,17-diol"
-84-16-2,192197.0,C18H22O2,270.4,"4-[(3S,4R)-4-(4-hydroxyphenyl)hexan-3-yl]phenol"
-56-53-1,448537.0,C18H20O2,268.3,4-[(E)-4-(4-hydroxyphenyl)hex-3-en-3-yl]phenol
-84-17-3,667476.0,C18H18O2,266.3,"4-[(2E,4E)-4-(4-hydroxyphenyl)hexa-2,4-dien-3-yl]phenol"
-53-16-7,5870.0,C18H22O2,270.4,"(8R,9S,13S,14S)-3-hydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one"
-72-33-3,6291.0,C21H26O2,310.4,"(8R,9S,13S,14S,17R)-17-ethynyl-3-methoxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-ol"
-57-91-0,68570.0,C18H24O2,272.4,"(8R,9S,13S,14S,17R)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol"
-50-27-1,5756.0,C18H24O3,288.4,"(8R,9S,13S,14S,16R,17R)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,16,17-triol"
-50-28-2,5757.0,C18H24O2,272.4,"(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol"
-34816-55-2,11954041.0,C21H26O3,326.4,"(8S,9S,11S,13S,14S,17R)-17-ethynyl-11-methoxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthrene-3,17-diol"
-474-86-2,223368.0,C18H20O2,268.3,"(9S,13S,14S)-3-hydroxy-13-methyl-9,11,12,14,15,16-hexahydro-6H-cyclopenta[a]phenanthren-17-one"
-5976-61-4,5282360.0,C18H24O3,288.4,"(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,4,17-triol"
-53-63-4,5888.0,C18H24O,256.4,"(8S,9S,13S,14S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol"
-362-05-0,247304.0,C18H24O3,288.4,"(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-2,3,17-triol"
+134523-00-5,60823,C33H35FN2O5,558.6,"(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid"
+85-68-7,2347,C19H20O4,312.4,"2-O-benzyl 1-O-butyl benzene-1,2-dicarboxylate"
+58-08-2,2519,C8H10N4O2,194.19,"1,3,7-trimethylpurine-2,6-dione"
+298-46-4,2554,C15H12N2O,236.27,benzo[b][1]benzazepine-11-carboxamide
+134-62-3,4284,C12H17NO,191.27,"N,N-diethyl-3-methylbenzamide"
+58-73-1,3100,C17H21NO,255.35,"2-benzhydryloxy-N,N-dimethylethanamine"
+93413-69-5,5656,C17H27NO2,277.4,1-[2-(dimethylamino)-1-(4-methoxyphenyl)ethyl]cyclohexan-1-ol
+57-63-6,5991,C20H24O2,296.4,"(8R,9S,13S,14S,17R)-17-ethynyl-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthrene-3,17-diol"
+84-16-2,192197,C18H22O2,270.4,"4-[(3S,4R)-4-(4-hydroxyphenyl)hexan-3-yl]phenol"
+56-53-1,448537,C18H20O2,268.3,4-[(E)-4-(4-hydroxyphenyl)hex-3-en-3-yl]phenol
+84-17-3,667476,C18H18O2,266.3,"4-[(2E,4E)-4-(4-hydroxyphenyl)hexa-2,4-dien-3-yl]phenol"
+53-16-7,5870,C18H22O2,270.4,"(8R,9S,13S,14S)-3-hydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one"
+72-33-3,6291,C21H26O2,310.4,"(8R,9S,13S,14S,17R)-17-ethynyl-3-methoxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-ol"
+57-91-0,68570,C18H24O2,272.4,"(8R,9S,13S,14S,17R)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol"
+50-27-1,5756,C18H24O3,288.4,"(8R,9S,13S,14S,16R,17R)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,16,17-triol"
+50-28-2,5757,C18H24O2,272.4,"(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol"
+34816-55-2,11954041,C21H26O3,326.4,"(8S,9S,11S,13S,14S,17R)-17-ethynyl-11-methoxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthrene-3,17-diol"
+474-86-2,223368,C18H20O2,268.3,"(9S,13S,14S)-3-hydroxy-13-methyl-9,11,12,14,15,16-hexahydro-6H-cyclopenta[a]phenanthren-17-one"
+5976-61-4,5282360,C18H24O3,288.4,"(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,4,17-triol"
+53-63-4,5888,C18H24O,256.4,"(8S,9S,13S,14S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol"
+362-05-0,247304,C18H24O3,288.4,"(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-2,3,17-triol"
+54-11-5,89594,C10H14N2,162.23,3-[(2S)-1-methylpyrrolidin-2-yl]pyridine
+15569-85-4,408,C10H12N2O,176.21,1-methyl-5-pyridin-3-ylpyrrolidin-2-one
+42542-10-9,1615,C11H15NO2,193.24,"1-(1,3-benzodioxol-5-yl)-N-methylpropan-2-amine"
+125-71-3,5360696,C18H25NO,271.4,"(1S,9S,10S)-4-methoxy-17-methyl-17-azatetracyclo[7.5.3.01,10.02,7]heptadeca-2(7),3,5-triene"
+58955-93-4,114725,C15H14N2O3,270.28,"(5S,6S)-5,6-dihydroxy-5,6-dihydrobenzo[b][1]benzazepine-11-carboxamide"
+301-02-0,5283387,C18H35NO,281.5,(Z)-octadec-9-enamide
+876-04-0,440266,C8H11NO2,153.18,4-[(1R)-2-amino-1-hydroxyethyl]phenol
+7432-28-2,3001664,C24H32O7,432.5,"(9S,10S)-3,4,5,14,15,16-hexamethoxy-9,10-dimethyltricyclo[10.4.0.02,7]hexadeca-1(16),2,4,6,12,14-hexaen-9-ol"
+95-14-7,7220,C6H5N3,119.12,2H-benzotriazole
+1222-05-5,91497,C18H26O,258.4,"4,6,6,7,8,8-hexamethyl-1,3,4,7-tetrahydrocyclopenta[g]isochromene"
+7374-53-0,135461611,C9H17N5O,211.26,"4,6-bis(propan-2-ylamino)-1H-1,3,5-triazin-2-one"
+97-39-2,7333,C15H17N3,239.32,"1,2-bis(2-methylphenyl)guanidine"
+18684-55-4,29212,C20H26O3,314.4,"(1R,4aS,10aR)-1,4a-dimethyl-9-oxo-7-propan-2-yl-3,4,10,10a-tetrahydro-2H-phenanthrene-1-carboxylic acid"
+10041-19-7,11339,C20H38O7S,422.6,"1,4-bis(2-ethylhexoxy)-1,4-dioxobutane-2-sulfonic acid"
+2243-62-1,16720,C10H10N2,158.2,"naphthalene-1,5-diamine"
+2163-68-0,135398733,C8H15N5O,197.24,"4-(ethylamino)-6-(propan-2-ylamino)-1H-1,3,5-triazin-2-one"
+103-90-2,1983,C8H9NO2,151.16,N-(4-hydroxyphenyl)acetamide
+1912-24-9,2256,C8H14ClN5,215.68,"6-chloro-4-N-ethyl-2-N-propan-2-yl-1,3,5-triazine-2,4-diamine"
+16287-71-1,8756,C23H42N+,332.6,benzyl-dimethyl-tetradecylazanium
+14800-24-9,5964,C10H16N+,150.24,benzyl(trimethyl)azanium
+66722-44-9,2405,C18H31NO4,325.4,1-(propan-2-ylamino)-3-[4-(2-propan-2-yloxyethoxymethyl)phenoxy]propan-2-ol
+34911-55-2,444,C13H18ClNO,239.74,2-(tert-butylamino)-1-(3-chlorophenyl)propan-1-one
+36507-30-9,2555,C15H12N2O2,252.27,"3-oxa-11-azatetracyclo[10.4.0.02,4.05,10]hexadeca-1(16),5,7,9,12,14-hexaene-11-carboxamide"
+10605-21-7,25429,C9H9N3O2,191.19,methyl N-(1H-benzimidazol-2-yl)carbamate
+601-57-0,91477,C27H44O,384.6,"(8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one"
+541-02-6,10913,C10H30O5Si5,370.77,"2,2,4,4,6,6,8,8,10,10-decamethyl-1,3,5,7,9,2,4,6,8,10-pentaoxapentasilecane"
+53-43-0,5881,C19H28O2,288.4,"(3S,8R,9S,10R,13S,14S)-3-hydroxy-10,13-dimethyl-1,2,3,4,7,8,9,11,12,14,15,16-dodecahydrocyclopenta[a]phenanthren-17-one"
+5051-22-9,21138,C16H21NO2,259.34,(2R)-1-naphthalen-1-yloxy-3-(propan-2-ylamino)propan-2-ol
+540-97-6,10911,C12H36O6Si6,444.92,"2,2,4,4,6,6,8,8,10,10,12,12-dodecamethyl-1,3,5,7,9,11-hexaoxa-2,4,6,8,10,12-hexasilacyclododecane"
+481-29-8,441302,C19H30O2,290.4,"(3S,5S,8R,9S,10S,13S,14S)-3-hydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,14,15,16-tetradecahydrocyclopenta[a]phenanthren-17-one"
+104746-04-5,9881504,C15H14N2O2,254.28,"(5S)-5-hydroxy-5,6-dihydrobenzo[b][1]benzazepine-11-carboxamide"
+5696-58-2,5288172,C18H26O2,274.4,"(5S,8R,9R,10S,13S,14S)-13-methyl-1,2,4,5,6,7,8,9,10,11,12,14,15,16-tetradecahydrocyclopenta[a]phenanthrene-3,17-dione"
+69335-91-7,91701,C15H12F3NO4,327.25,2-[4-[[5-(trifluoromethyl)-2-pyridinyl]oxy]phenoxy]propanoic acid
+2631-40-5,17517,C11H15NO2,193.24,(2-propan-2-ylphenyl) N-methylcarbamate
+84057-84-1,3878,C9H7Cl2N5,256.09,"6-(2,3-dichlorophenyl)-1,2,4-triazine-3,5-diamine"
+29331-92-8,114709,C15H14N2O2,254.28,"5-hydroxy-5,6-dihydrobenzo[b][1]benzazepine-11-carboxamide"
+537-46-2,10836,C10H15N,149.23,(2S)-N-methyl-1-phenylpropan-2-amine
+93413-62-8,125017,C16H25NO2,263.37,4-[2-(dimethylamino)-1-(1-hydroxycyclohexyl)ethyl]phenol
+28721-07-5,34312,C15H12N2O2,252.27,5-oxo-6H-benzo[b][1]benzazepine-11-carboxamide
+60207-90-1,43234,C15H17Cl2N3O2,342.2,"1-[[2-(2,4-dichlorophenyl)-4-propyl-1,3-dioxolan-2-yl]methyl]-1,2,4-triazole"
+525-66-6,4946,C16H21NO2,259.34,1-naphthalen-1-yloxy-3-(propan-2-ylamino)propan-2-ol
+122-34-9,5216,C7H12ClN5,201.66,"6-chloro-2-N,4-N-diethyl-1,3,5-triazine-2,4-diamine"
+3930-20-9,5253,C12H20N2O3S,272.37,N-[4-[1-hydroxy-2-(propan-2-ylamino)ethyl]phenyl]methanesulfonamide
+144-83-2,5336,C11H11N3O2S,249.29,4-amino-N-pyridin-2-ylbenzenesulfonamide
+107534-96-3,86102,C16H22ClN3O,307.82,"1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol"
+34014-18-1,5383,C9H16N4OS,228.32,"1-(5-tert-butyl-1,3,4-thiadiazol-2-yl)-1,3-dimethylurea"
+126-73-8,31357,C12H27O4P,266.31,tributyl phosphate
+738-70-5,5578,C14H18N4O3,290.32,"5-[(3,4,5-trimethoxyphenyl)methyl]pyrimidine-2,4-diamine"
