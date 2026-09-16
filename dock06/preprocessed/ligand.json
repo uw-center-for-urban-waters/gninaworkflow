@@ -1,0 +1,93 @@
+{
+    "EST_redock_1ERE": {
+        "id": "EST_redock_1ERE",
+        "name": "EST extracted from protein 1ERE",
+        "localfilename": "EST_redock_1ERE_A.sdf",
+        "source": "1ERE.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "EST_redock_1GWR": {
+        "id": "EST_redock_1GWR",
+        "name": "EST extracted from protein 1GWR",
+        "localfilename": "EST_redock_1GWR_A.sdf",
+        "source": "1GWR.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "EST_redock_3UUD": {
+        "id": "EST_redock_3UUD",
+        "name": "EST extracted from protein 3UUD",
+        "localfilename": "EST_redock_3UUD_A.sdf",
+        "source": "3UUD.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "EST_redock_6CBZ": {
+        "id": "EST_redock_6CBZ",
+        "name": "EST extracted from protein 6CBZ",
+        "localfilename": "EST_redock_6CBZ_A.sdf",
+        "source": "6CBZ.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "DES_redock_3ERD": {
+        "id": "DES_redock_3ERD",
+        "name": "DES extracted from protein 3ERD",
+        "localfilename": "DES_redock_3ERD_A.sdf",
+        "source": "3ERD.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "DES_redock_4ZN7": {
+        "id": "DES_redock_4ZN7",
+        "name": "DES extracted from protein 4ZN7",
+        "localfilename": "DES_redock_4ZN7_A.sdf",
+        "source": "4ZN7.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "27M_redock_4MGC": {
+        "id": "27M_redock_4MGC",
+        "name": "27M extracted from protein 4MGC",
+        "localfilename": "27M_redock_4MGC_A.sdf",
+        "source": "4MGC.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "27J_redock_4MG8": {
+        "id": "27J_redock_4MG8",
+        "name": "27J extracted from protein 4MG8",
+        "localfilename": "27J_redock_4MG8_A.sdf",
+        "source": "4MG8.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "36J_redock_4TUZ": {
+        "id": "36J_redock_4TUZ",
+        "name": "36J extracted from protein 4TUZ",
+        "localfilename": "36J_redock_4TUZ_A.sdf",
+        "source": "4TUZ.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "2OH_redock_3UU7": {
+        "id": "2OH_redock_3UU7",
+        "name": "2OH extracted from protein 3UU7",
+        "localfilename": "2OH_redock_3UU7_A.sdf",
+        "source": "3UU7.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "27K_redock_4MG9": {
+        "id": "27K_redock_4MG9",
+        "name": "27K extracted from protein 4MG9",
+        "localfilename": "27K_redock_4MG9_A.sdf",
+        "source": "4MG9.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "27L_redock_4MGA": {
+        "id": "27L_redock_4MGA",
+        "name": "27L extracted from protein 4MGA",
+        "localfilename": "27L_redock_4MGA_A.sdf",
+        "source": "4MGA.pdb",
+        "prep": "rdkit_save_H"
+    },
+    "EST_redock_1G50": {
+        "id": "EST_redock_1G50",
+        "name": "EST extracted from protein 1G50",
+        "localfilename": "EST_redock_1G50_A.sdf",
+        "source": "1G50.pdb",
+        "prep": "rdkit_save_H"
+    }
+}
