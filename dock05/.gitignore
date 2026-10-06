@@ -1,6 +1,0 @@
-config.py
-results/docked.sdf
-results/gninalog.txt
-results/*
-rmsd.txt
-sourcefiles/

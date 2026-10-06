@@ -1,9 +1,0 @@
-RMSD : inf
-RMSD : inf
-RMSD : inf
-RMSD : inf
-RMSD : inf
-RMSD : inf
-RMSD : inf
-RMSD : inf
-RMSD : inf
